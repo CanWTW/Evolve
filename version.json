@@ -1,6 +1,11 @@
 {
- "version": "0.11.0",
+ "version": "0.12.0",
  "notes": [
+  {
+   "v": "0.12.0",
+   "zh": "終局更新（三）：全新音效系統——立體聲、迴響、42 種音效（暴擊、元素反應、精英、傳奇／套裝／遠古掉落、哥布林、神壇、Boss 預警、低血心跳…），每個區域、Boss、裂隙階級同 Boss 連戰都有自己嘅節奏音樂。",
+   "en": "Endgame update (3): new sound engine — stereo, echo, 42 sounds (crits, reactions, elites, legendary / set / ancient drops, goblin, shrines, boss warnings, low-life heartbeat…) and beat-driven music for every zone, bosses, rift tiers and boss rush."
+  },
   {
    "v": "0.11.0",
    "zh": "終局更新（二）：地形柱同區域地面（熔岩／冰面／虛空）、隨機事件（寶藏哥布林、詛咒神壇、精英群、力量神壇）、每局兩次強化卡、Boss 連戰模式＋排行榜。",

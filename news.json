@@ -2,6 +2,14 @@
   "_doc": "News shown in game (newest first). id changes trigger the popup once.",
   "news": [
     {
+      "id": "2026-10-30-v0120",
+      "date": "2026-10-30",
+      "title": "終局更新（三）：全新音效同音樂",
+      "titleEn": "Endgame update (3): new sound and music",
+      "body": "重寫咗成個音效系統：有立體聲（左邊掉傳奇就喺左邊響）、迴響同壓縮，42 種音效包括暴擊、5 種元素反應、精英出現、傳奇／套裝／遠古掉落、寶藏哥布林、神壇、Boss 攻擊預警同低血心跳。音樂改為有鼓、低音、琶音同和弦嘅節奏，每個區域、Boss、裂隙階級同 Boss 連戰都唔同。可以喺設定調音量。",
+      "bodyEn": "The sound system was rebuilt: stereo (a legendary dropping on the left sounds on the left), echo and compression, and 42 sounds including crits, 5 elemental reactions, elites, legendary / set / ancient drops, the treasure goblin, shrines, boss attack warnings and a low-life heartbeat. Music now has drums, bass, arpeggios and chords, different for every zone, bosses, rift tiers and boss rush. Adjust volumes in Options."
+    },
+    {
       "id": "2026-10-30-v0110",
       "date": "2026-10-30",
       "title": "終局更新（二）：每局都唔同",
