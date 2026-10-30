@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>EVOLVE 登入</title>
+<style>
+:root{--bg:#0d0a18;--fg:#e8e8f4;--ac:#5ef2a0;--er:#ff5a6e}
+body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,"Noto Sans TC",sans-serif;padding:16px;box-sizing:border-box}
+.box{max-width:420px;text-align:center}h1{font-size:20px;letter-spacing:2px}#msg.ok{color:var(--ac)}#msg.err{color:var(--er)}
+</style>
+</head>
+<body>
+<div class="box"><h1>PROJECT: EVOLVE</h1><p id="msg">處理緊登入…</p></div>
+<script>
+// Login popup: (1) ?p=google|discord&c=CODE → send to Supabase OAuth; (2) back with tokens in #hash → hand the refresh token to the game via auth_handoff (one-time code, 10 min), then close.
+const SB = { url: 'https://edustzcgqvupqjvneniw.supabase.co', key: 'sb_publishable_ePgsT_AAjMFEUadav6GhCw_tsG9OxPS' };
+const msg = (t, c) => { const m = document.getElementById('msg'); m.textContent = t; m.className = c || ''; };
+const q = new URLSearchParams(location.search), h = new URLSearchParams(location.hash.slice(1));
+const code = q.get('c') || '', prov = q.get('p') || '';
+(async () => {
+  if (!/^[0-9a-f]{32,64}$/.test(code)) { msg('登入連結唔啱，請返遊戲再試。', 'err'); return; }
+  if (h.get('error') || q.get('error')) { msg('登入取消或者失敗：' + (h.get('error_description') || q.get('error_description') || h.get('error') || q.get('error')), 'err'); return; }
+  const at = h.get('access_token'), rt = h.get('refresh_token');
+  if (!at) {
+    if (prov !== 'google' && prov !== 'discord') { msg('唔支援呢個登入方式。', 'err'); return; }
+    const back = location.origin + location.pathname + '?c=' + code;
+    location.replace(SB.url + '/auth/v1/authorize?provider=' + prov + '&redirect_to=' + encodeURIComponent(back));
+    return;
+  }
+  history.replaceState(null, '', location.pathname);
+  try {
+    const r = await fetch(SB.url + '/rest/v1/auth_handoff', { method: 'POST', headers: { apikey: SB.key, Authorization: 'Bearer ' + at, 'Content-Type': 'application/json', Prefer: 'return=minimal' }, body: JSON.stringify({ code, refresh_token: rt }) });
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    msg('登入成功！可以返去遊戲（呢個視窗會自動閂）。', 'ok');
+    setTimeout(() => window.close(), 1500);
+  } catch (e) { msg('登入完成但交收失敗（' + e.message + '），請返遊戲再試。', 'err'); }
+})();
+</script>
+</body>
+</html>
