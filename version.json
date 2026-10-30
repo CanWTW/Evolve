@@ -1,6 +1,11 @@
 {
- "version": "0.12.0",
+ "version": "0.12.1",
  "notes": [
+  {
+   "v": "0.12.1",
+   "zh": "躍擊同疾風突擊唔再瞬移：跳躍有弧線、衝刺會滑過去，到達先出傷害；敵人已經喺身邊就原地攻擊，唔會再閃嚟閃去。",
+   "en": "Leap Slam and Dash Strike no longer teleport: the leap arcs and the dash slides, damage lands on arrival; if the enemy is already next to you they hit in place instead of flickering around."
+  },
   {
    "v": "0.12.0",
    "zh": "終局更新（三）：全新音效系統——立體聲、迴響、42 種音效（暴擊、元素反應、精英、傳奇／套裝／遠古掉落、哥布林、神壇、Boss 預警、低血心跳…），每個區域、Boss、裂隙階級同 Boss 連戰都有自己嘅節奏音樂。",
