@@ -2,6 +2,14 @@
   "_doc": "News shown in game (newest first). id changes trigger the popup once.",
   "news": [
     {
+      "id": "2026-10-30-leaderboard",
+      "date": "2026-10-30",
+      "title": "每日／每週裂隙排行榜上線",
+      "titleEn": "Daily / weekly rift leaderboards are live",
+      "body": "通關每日或每週裂隙會自動上傳你最快嘅成績。喺傳送門或者選單撳「排行榜」睇全世界排名。",
+      "bodyEn": "Clearing a daily or weekly rift uploads your fastest time automatically. Open Leaderboard from the portal or the menu to see the world ranking."
+    },
+    {
       "id": "2026-10-30-liveops",
       "date": "2026-10-30",
       "title": "每日／每週裂隙同活動系統上線",
