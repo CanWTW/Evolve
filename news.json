@@ -2,6 +2,14 @@
   "_doc": "News shown in game (newest first). id changes trigger the popup once.",
   "news": [
     {
+      "id": "2026-10-30-v093",
+      "date": "2026-10-30",
+      "title": "雲端自動同步＋技能珠畫面重新設計",
+      "titleEn": "Cloud auto-sync + redesigned skill orb screen",
+      "body": "用 Google／Discord 登入（帳戶／雲端存檔）之後，存檔會自動上載，換機登入就可以下載返。技能珠同裝備而家分開兩個畫面（手機右上 ◆ 技能珠、⚔ 裝備）；技能珠背包可以按類型篩選。修正咗手機撳唔到「繼續」嘅問題。",
+      "bodyEn": "After signing in with Google / Discord (Account / cloud saves), your saves upload automatically and you can download them on another device. Skill orbs and equipment are now separate screens (◆ orbs, ⚔ gear at the top right on phones), and the orb bag has type filters. Fixed the Continue button not responding to taps on phones."
+    },
+    {
       "id": "2026-10-30-v092",
       "date": "2026-10-30",
       "title": "新手村改版＋手機全螢幕",
