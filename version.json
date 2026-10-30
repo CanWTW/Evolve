@@ -1,6 +1,11 @@
 {
- "version": "0.13.0",
+ "version": "0.13.1",
  "notes": [
+  {
+   "v": "0.13.1",
+   "zh": "所有掉落（經驗、金幣、裝備、技能珠）都會自動飛去你身上（補血球只喺唔夠血時先飛）；打低 Boss 後地上剩低嘅嘢自動拾取，背包滿就入倉庫；「拾取範圍」改為「尋寶」：經驗同金幣各加一半。",
+   "en": "Every drop (XP, gold, items, orbs) now flies to you (heal orbs only when you're hurt); after a boss, anything left on the ground is collected automatically, overflow goes to the stash; \"pickup radius\" became \"treasure find\": half as XP and half as gold."
+  },
   {
    "v": "0.13.0",
    "zh": "位移技能改為自己控制（E／右鍵／手機「位移」掣，向住移動方向）；光環唔再觸發「踏地施放」；同款技能珠疊埋一格（×N），背包上限計格數；裝備圖示每件傳奇唔同色、套裝綠色、遠古／太古有邊框同標記，倉庫可以先睇詳情先搬；新遊戲 icon。",
