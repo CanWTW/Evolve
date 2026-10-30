@@ -1,6 +1,11 @@
 {
- "version": "0.13.2",
+ "version": "0.14.0",
  "notes": [
+  {
+   "v": "0.14.0",
+   "zh": "技能大改（參考 PoE）：主1 變★主力技能（傷害 ×1.3）；觸發連結固定由上面嗰招觸發；新增 10 個持續技能（憤怒、憎恨、雷霆、堅鐵意志、迅捷、精準、紀律、統御、冰霜／雷霆之捷），放入主技能格長期強化角色；新輔助珠「光環強化」。修正：開機公告同主畫面公告一致；紅點分開技能珠／裝備。",
+   "en": "Skill rework (PoE-inspired): main 1 is now the ★Primary skill (×1.3 damage); trigger links are fed by the skill above them; 10 persistent skills (auras & heralds) that buff you from a main slot; new Aura Amplifier support. Fixes: startup news matches the title news; red dots now separate orbs and gear."
+  },
   {
    "v": "0.13.2",
    "zh": "「尋寶」改為「掉寶率」：每 +1% = 裝備掉落機率 +1%，另加 +0.5% 稀有度（取代經驗／金幣加成）。",

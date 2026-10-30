@@ -1,101 +1,109 @@
 {
-  "_doc": "News shown in game (newest first). id changes trigger the popup once.",
-  "news": [
-    {
-      "id": "2026-10-30-v0130",
-      "date": "2026-10-30",
-      "title": "自己控制位移＋裝備更易認",
-      "titleEn": "Control your movement + clearer gear",
-      "body": "躍擊／疾風突擊唔再自己飛：按 E（或者滑鼠右鍵、手機「位移」掣）先會向住你移動嘅方向跳／衝；前面冇敵人就當走位用。想要舊玩法可以喺設定開「自動施放位移技能」。光環唔再觸發「踏地施放」（只限毒池、焦土等留喺地上嘅範圍）。同款技能珠會疊埋一格。每件傳奇有自己顏色，套裝綠色，遠古／太古有金／紅邊框；倉庫撳一下先睇詳情。",
-      "bodyEn": "Leap Slam / Dash Strike no longer fly on their own: press E (or right-click, or the Move button on phones) to leap / dash toward the direction you move; with nothing in front it repositions you. Turn on \"Auto-cast movement skills\" in Options for the old behaviour. Auras no longer fire Cast on Zone Enter (only ground zones like poison pools and scorched earth). Identical orbs stack in one cell. Every legendary has its own colour, sets are green, ancient / primal get gold / red frames; tap once in the stash to see details."
-    },
-    {
-      "id": "2026-10-30-v0120",
-      "date": "2026-10-30",
-      "title": "終局更新（三）：全新音效同音樂",
-      "titleEn": "Endgame update (3): new sound and music",
-      "body": "重寫咗成個音效系統：有立體聲（左邊掉傳奇就喺左邊響）、迴響同壓縮，42 種音效包括暴擊、5 種元素反應、精英出現、傳奇／套裝／遠古掉落、寶藏哥布林、神壇、Boss 攻擊預警同低血心跳。音樂改為有鼓、低音、琶音同和弦嘅節奏，每個區域、Boss、裂隙階級同 Boss 連戰都唔同。可以喺設定調音量。",
-      "bodyEn": "The sound system was rebuilt: stereo (a legendary dropping on the left sounds on the left), echo and compression, and 42 sounds including crits, 5 elemental reactions, elites, legendary / set / ancient drops, the treasure goblin, shrines, boss attack warnings and a low-life heartbeat. Music now has drums, bass, arpeggios and chords, different for every zone, bosses, rift tiers and boss rush. Adjust volumes in Options."
-    },
-    {
-      "id": "2026-10-30-v0110",
-      "date": "2026-10-30",
-      "title": "終局更新（二）：每局都唔同",
-      "titleEn": "Endgame update (2): every run is different",
-      "body": "戰場有地形柱（擋到敵人子彈，可以當掩護），灼熱峽谷有熔岩、冰封深淵有冰面、虛空神殿有減速區。每局會隨機出現事件：寶藏哥布林（追到有大量金幣同傳奇）、詛咒神壇（打低精英有寶箱）、精英群、力量神壇。1 分鐘同 2 分鐘各揀一張強化卡。挑戰祭壇新增 Boss 連戰：連續打 4 隻 Boss，比用時上排行榜。",
-      "bodyEn": "The arena now has pillars (they block enemy shots — use them as cover); Ember Canyon has lava, Frozen Abyss ice, Void Sanctum slowing rifts. Random events appear each run: Treasure Goblin (catch it for gold and a legendary), Cursed Shrine (beat the elites for a chest), Elite Pack, Power Shrine. Pick a boon card at 1 and 2 minutes. The Challenge Altar adds Boss Rush: all 4 bosses back to back, ranked by time."
-    },
-    {
-      "id": "2026-10-30-v0100",
-      "date": "2026-10-30",
-      "title": "終局更新（一）：裂隙階級＋套裝",
-      "titleEn": "Endgame update (1): Rift Tiers + sets",
-      "body": "打低虛空之主之後，主線傳送門會開放「裂隙階級」：由 T1 開始無限往上爬，每階怪物更強、掉落更好，有機會出遠古（詞綴更高）同 T10 起嘅太古裝備，仲有階級排行榜。新增 4 套套裝：大法師之道（法術）、戰神之怒（近戰）、疾風獵手（遠程）、亡靈君主（召喚），2 件同 4 件有額外效果；每個區域 Boss 有機會掉佢對應嘅套裝。",
-      "bodyEn": "After beating the Void Sovereign, the Zone Portal opens Rift Tiers: climb from T1 without limit; every tier has stronger monsters and better loot, with ancient (higher affixes) and, from T10, primal gear — plus a tier leaderboard. 4 new sets: Archmage's Way (spells), Warlord's Fury (melee), Gale Hunter (ranged), Lich Lord (minions), with 2- and 4-piece bonuses; each zone boss can drop its own set."
-    },
-    {
-      "id": "2026-10-30-v097",
-      "date": "2026-10-30",
-      "title": "修正：重新載入會跳去 itch.io",
-      "titleEn": "Fixed: reloading jumped to itch.io",
-      "body": "遊戲檔入面殘留咗一段 itch.io 嘅檢查程式，喺 GitHub 版重新載入時會將頁面踢去 itch 嘅錯誤頁。已經刪除。",
-      "bodyEn": "A leftover itch.io checker script in the game file sent the page to itch's error page when reloading the GitHub version. It has been removed."
-    },
-    {
-      "id": "2026-10-30-v096",
-      "date": "2026-10-30",
-      "title": "手機畫面放大",
-      "titleEn": "Bigger view on phones",
-      "body": "手機上鏡頭會自動拉近 1.5 倍，角色同怪物大咗好多；可以喺「設定 → 畫面縮放」揀 1×（睇得最闊）、1.5× 或 2×。能力值畫面嘅詳細說明收埋咗喺「？說明」掣入面。",
-      "bodyEn": "On phones the camera now zooms in 1.5× automatically, so characters and monsters are much bigger; choose 1× (widest), 1.5× or 2× in Options → View zoom. The long attribute descriptions moved behind a ? Help button."
-    },
-    {
-      "id": "2026-10-30-v095",
-      "date": "2026-10-30",
-      "title": "自動更新",
-      "titleEn": "Automatic updates",
-      "body": "之後有新版本，遊戲會自動重新載入（打緊嗰陣會喺底部顯示「重新載入」掣，撳之前會自動存檔），唔會再出現公告講咗更新但畫面仲係舊版。",
-      "bodyEn": "From now on the game reloads itself when a new version is out (during play a Reload button appears at the bottom; it autosaves first), so you won't be stuck on an old version after an update."
-    },
-    {
-      "id": "2026-10-30-v094",
-      "date": "2026-10-30",
-      "title": "大螢幕介面放大＋唔會再誤跳頁",
-      "titleEn": "Bigger menus on large monitors + no more accidental page jumps",
-      "body": "電腦大螢幕上，技能珠、裝備等畫面會跟視窗大細一齊放大，唔會再好空。觸控板左右掃、滑鼠返回掣或者瀏覽器「返回」唔會再離開遊戲，打緊嗰陣會改為暫停。",
-      "bodyEn": "On large monitors the orb, equipment and other menus now scale with the window instead of leaving lots of empty space. Touchpad swipes, the mouse back button or the browser Back button no longer leave the game; during a run they pause it."
-    },
-    {
-      "id": "2026-10-30-v093",
-      "date": "2026-10-30",
-      "title": "雲端自動同步＋技能珠畫面重新設計",
-      "titleEn": "Cloud auto-sync + redesigned skill orb screen",
-      "body": "用 Google／Discord 登入（帳戶／雲端存檔）之後，存檔會自動上載，換機登入就可以下載返。技能珠同裝備而家分開兩個畫面（手機右上 ◆ 技能珠、⚔ 裝備）；技能珠背包可以按類型篩選。修正咗手機撳唔到「繼續」嘅問題。",
-      "bodyEn": "After signing in with Google / Discord (Account / cloud saves), your saves upload automatically and you can download them on another device. Skill orbs and equipment are now separate screens (◆ orbs, ⚔ gear at the top right on phones), and the orb bag has type filters. Fixed the Continue button not responding to taps on phones."
-    },
-    {
-      "id": "2026-10-30-v092",
-      "date": "2026-10-30",
-      "title": "新手村改版＋手機全螢幕",
-      "titleEn": "Village revamp + mobile fullscreen",
-      "body": "村入面而家有三個入口：右下「主線傳送門」揀區域（有圖示卡），「挑戰祭壇」玩每日／每週裂隙，「榮譽石碑」睇排行榜。右上新增 ⛶ 全螢幕掣；iPhone 可以「分享 → 加入主畫面」當 App 咁全螢幕玩。",
-      "bodyEn": "The village now has three entrances: the Zone Portal (zone cards with icons), the Challenge Altar (daily / weekly rifts) and the Hall of Fame (leaderboard). New ⛶ fullscreen button at the top right; on iPhone use Share → Add to Home Screen to play fullscreen like an app."
-    },
-    {
-      "id": "2026-10-30-leaderboard",
-      "date": "2026-10-30",
-      "title": "每日／每週裂隙排行榜上線",
-      "titleEn": "Daily / weekly rift leaderboards are live",
-      "body": "通關每日或每週裂隙會自動上傳你最快嘅成績。喺傳送門或者選單撳「排行榜」睇全世界排名。",
-      "bodyEn": "Clearing a daily or weekly rift uploads your fastest time automatically. Open Leaderboard from the portal or the menu to see the world ranking."
-    },
-    {
-      "id": "2026-10-30-liveops",
-      "date": "2026-10-30",
-      "title": "每日／每週裂隙同活動系統上線",
-      "titleEn": "Daily / weekly rifts and events are live",
-      "body": "喺傳送門揀「每日裂隙」或「每週裂隙」：全世界同一個種子同詞綴，第一次通關送金幣同傳奇，每日連續通關獎勵越嚟越多。開張慶典期間所有獎勵 +25%。",
-      "bodyEn": "Pick Daily or Weekly Rift at the portal: same seed and modifiers for everyone; the first clear pays gold and a legendary, and daily streaks pay more. All rewards +25% during the celebration."
-    }
-  ]
+ "_doc": "News shown in game (newest first). id changes trigger the popup once.",
+ "news": [
+  {
+   "id": "v0140",
+   "date": "2026-10-30",
+   "title": "v0.14.0 技能大改：主力技能＋持續光環",
+   "titleEn": "v0.14.0 Skill rework: Primary skill + persistent auras",
+   "body": "主1 係你嘅★主力技能（傷害 ×1.3）。觸發連結而家固定由上面嗰招觸發。商店有 10 個新持續技能（光環／先驅），放入主技能格就會長期強化角色，唔會佔施放。配合新輔助珠「光環強化」更強。",
+   "bodyEn": "Main 1 is your ★Primary skill (×1.3 damage). Trigger links now fire from the skill above them. The shop sells 10 new persistent skills (auras/heralds) that buff you from a main slot without casting. Pair them with the new Aura Amplifier support."
+  },
+  {
+   "id": "2026-10-30-v0130",
+   "date": "2026-10-30",
+   "title": "自己控制位移＋裝備更易認",
+   "titleEn": "Control your movement + clearer gear",
+   "body": "躍擊／疾風突擊唔再自己飛：按 E（或者滑鼠右鍵、手機「位移」掣）先會向住你移動嘅方向跳／衝；前面冇敵人就當走位用。想要舊玩法可以喺設定開「自動施放位移技能」。光環唔再觸發「踏地施放」（只限毒池、焦土等留喺地上嘅範圍）。同款技能珠會疊埋一格。每件傳奇有自己顏色，套裝綠色，遠古／太古有金／紅邊框；倉庫撳一下先睇詳情。",
+   "bodyEn": "Leap Slam / Dash Strike no longer fly on their own: press E (or right-click, or the Move button on phones) to leap / dash toward the direction you move; with nothing in front it repositions you. Turn on \"Auto-cast movement skills\" in Options for the old behaviour. Auras no longer fire Cast on Zone Enter (only ground zones like poison pools and scorched earth). Identical orbs stack in one cell. Every legendary has its own colour, sets are green, ancient / primal get gold / red frames; tap once in the stash to see details."
+  },
+  {
+   "id": "2026-10-30-v0120",
+   "date": "2026-10-30",
+   "title": "終局更新（三）：全新音效同音樂",
+   "titleEn": "Endgame update (3): new sound and music",
+   "body": "重寫咗成個音效系統：有立體聲（左邊掉傳奇就喺左邊響）、迴響同壓縮，42 種音效包括暴擊、5 種元素反應、精英出現、傳奇／套裝／遠古掉落、寶藏哥布林、神壇、Boss 攻擊預警同低血心跳。音樂改為有鼓、低音、琶音同和弦嘅節奏，每個區域、Boss、裂隙階級同 Boss 連戰都唔同。可以喺設定調音量。",
+   "bodyEn": "The sound system was rebuilt: stereo (a legendary dropping on the left sounds on the left), echo and compression, and 42 sounds including crits, 5 elemental reactions, elites, legendary / set / ancient drops, the treasure goblin, shrines, boss attack warnings and a low-life heartbeat. Music now has drums, bass, arpeggios and chords, different for every zone, bosses, rift tiers and boss rush. Adjust volumes in Options."
+  },
+  {
+   "id": "2026-10-30-v0110",
+   "date": "2026-10-30",
+   "title": "終局更新（二）：每局都唔同",
+   "titleEn": "Endgame update (2): every run is different",
+   "body": "戰場有地形柱（擋到敵人子彈，可以當掩護），灼熱峽谷有熔岩、冰封深淵有冰面、虛空神殿有減速區。每局會隨機出現事件：寶藏哥布林（追到有大量金幣同傳奇）、詛咒神壇（打低精英有寶箱）、精英群、力量神壇。1 分鐘同 2 分鐘各揀一張強化卡。挑戰祭壇新增 Boss 連戰：連續打 4 隻 Boss，比用時上排行榜。",
+   "bodyEn": "The arena now has pillars (they block enemy shots — use them as cover); Ember Canyon has lava, Frozen Abyss ice, Void Sanctum slowing rifts. Random events appear each run: Treasure Goblin (catch it for gold and a legendary), Cursed Shrine (beat the elites for a chest), Elite Pack, Power Shrine. Pick a boon card at 1 and 2 minutes. The Challenge Altar adds Boss Rush: all 4 bosses back to back, ranked by time."
+  },
+  {
+   "id": "2026-10-30-v0100",
+   "date": "2026-10-30",
+   "title": "終局更新（一）：裂隙階級＋套裝",
+   "titleEn": "Endgame update (1): Rift Tiers + sets",
+   "body": "打低虛空之主之後，主線傳送門會開放「裂隙階級」：由 T1 開始無限往上爬，每階怪物更強、掉落更好，有機會出遠古（詞綴更高）同 T10 起嘅太古裝備，仲有階級排行榜。新增 4 套套裝：大法師之道（法術）、戰神之怒（近戰）、疾風獵手（遠程）、亡靈君主（召喚），2 件同 4 件有額外效果；每個區域 Boss 有機會掉佢對應嘅套裝。",
+   "bodyEn": "After beating the Void Sovereign, the Zone Portal opens Rift Tiers: climb from T1 without limit; every tier has stronger monsters and better loot, with ancient (higher affixes) and, from T10, primal gear — plus a tier leaderboard. 4 new sets: Archmage's Way (spells), Warlord's Fury (melee), Gale Hunter (ranged), Lich Lord (minions), with 2- and 4-piece bonuses; each zone boss can drop its own set."
+  },
+  {
+   "id": "2026-10-30-v097",
+   "date": "2026-10-30",
+   "title": "修正：重新載入會跳去 itch.io",
+   "titleEn": "Fixed: reloading jumped to itch.io",
+   "body": "遊戲檔入面殘留咗一段 itch.io 嘅檢查程式，喺 GitHub 版重新載入時會將頁面踢去 itch 嘅錯誤頁。已經刪除。",
+   "bodyEn": "A leftover itch.io checker script in the game file sent the page to itch's error page when reloading the GitHub version. It has been removed."
+  },
+  {
+   "id": "2026-10-30-v096",
+   "date": "2026-10-30",
+   "title": "手機畫面放大",
+   "titleEn": "Bigger view on phones",
+   "body": "手機上鏡頭會自動拉近 1.5 倍，角色同怪物大咗好多；可以喺「設定 → 畫面縮放」揀 1×（睇得最闊）、1.5× 或 2×。能力值畫面嘅詳細說明收埋咗喺「？說明」掣入面。",
+   "bodyEn": "On phones the camera now zooms in 1.5× automatically, so characters and monsters are much bigger; choose 1× (widest), 1.5× or 2× in Options → View zoom. The long attribute descriptions moved behind a ? Help button."
+  },
+  {
+   "id": "2026-10-30-v095",
+   "date": "2026-10-30",
+   "title": "自動更新",
+   "titleEn": "Automatic updates",
+   "body": "之後有新版本，遊戲會自動重新載入（打緊嗰陣會喺底部顯示「重新載入」掣，撳之前會自動存檔），唔會再出現公告講咗更新但畫面仲係舊版。",
+   "bodyEn": "From now on the game reloads itself when a new version is out (during play a Reload button appears at the bottom; it autosaves first), so you won't be stuck on an old version after an update."
+  },
+  {
+   "id": "2026-10-30-v094",
+   "date": "2026-10-30",
+   "title": "大螢幕介面放大＋唔會再誤跳頁",
+   "titleEn": "Bigger menus on large monitors + no more accidental page jumps",
+   "body": "電腦大螢幕上，技能珠、裝備等畫面會跟視窗大細一齊放大，唔會再好空。觸控板左右掃、滑鼠返回掣或者瀏覽器「返回」唔會再離開遊戲，打緊嗰陣會改為暫停。",
+   "bodyEn": "On large monitors the orb, equipment and other menus now scale with the window instead of leaving lots of empty space. Touchpad swipes, the mouse back button or the browser Back button no longer leave the game; during a run they pause it."
+  },
+  {
+   "id": "2026-10-30-v093",
+   "date": "2026-10-30",
+   "title": "雲端自動同步＋技能珠畫面重新設計",
+   "titleEn": "Cloud auto-sync + redesigned skill orb screen",
+   "body": "用 Google／Discord 登入（帳戶／雲端存檔）之後，存檔會自動上載，換機登入就可以下載返。技能珠同裝備而家分開兩個畫面（手機右上 ◆ 技能珠、⚔ 裝備）；技能珠背包可以按類型篩選。修正咗手機撳唔到「繼續」嘅問題。",
+   "bodyEn": "After signing in with Google / Discord (Account / cloud saves), your saves upload automatically and you can download them on another device. Skill orbs and equipment are now separate screens (◆ orbs, ⚔ gear at the top right on phones), and the orb bag has type filters. Fixed the Continue button not responding to taps on phones."
+  },
+  {
+   "id": "2026-10-30-v092",
+   "date": "2026-10-30",
+   "title": "新手村改版＋手機全螢幕",
+   "titleEn": "Village revamp + mobile fullscreen",
+   "body": "村入面而家有三個入口：右下「主線傳送門」揀區域（有圖示卡），「挑戰祭壇」玩每日／每週裂隙，「榮譽石碑」睇排行榜。右上新增 ⛶ 全螢幕掣；iPhone 可以「分享 → 加入主畫面」當 App 咁全螢幕玩。",
+   "bodyEn": "The village now has three entrances: the Zone Portal (zone cards with icons), the Challenge Altar (daily / weekly rifts) and the Hall of Fame (leaderboard). New ⛶ fullscreen button at the top right; on iPhone use Share → Add to Home Screen to play fullscreen like an app."
+  },
+  {
+   "id": "2026-10-30-leaderboard",
+   "date": "2026-10-30",
+   "title": "每日／每週裂隙排行榜上線",
+   "titleEn": "Daily / weekly rift leaderboards are live",
+   "body": "通關每日或每週裂隙會自動上傳你最快嘅成績。喺傳送門或者選單撳「排行榜」睇全世界排名。",
+   "bodyEn": "Clearing a daily or weekly rift uploads your fastest time automatically. Open Leaderboard from the portal or the menu to see the world ranking."
+  },
+  {
+   "id": "2026-10-30-liveops",
+   "date": "2026-10-30",
+   "title": "每日／每週裂隙同活動系統上線",
+   "titleEn": "Daily / weekly rifts and events are live",
+   "body": "喺傳送門揀「每日裂隙」或「每週裂隙」：全世界同一個種子同詞綴，第一次通關送金幣同傳奇，每日連續通關獎勵越嚟越多。開張慶典期間所有獎勵 +25%。",
+   "bodyEn": "Pick Daily or Weekly Rift at the portal: same seed and modifiers for everyone; the first clear pays gold and a legendary, and daily streaks pay more. All rewards +25% during the celebration."
+  }
+ ]
 }
