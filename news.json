@@ -1,0 +1,13 @@
+{
+  "_doc": "News shown in game (newest first). id changes trigger the popup once.",
+  "news": [
+    {
+      "id": "2026-10-30-liveops",
+      "date": "2026-10-30",
+      "title": "每日／每週裂隙同活動系統上線",
+      "titleEn": "Daily / weekly rifts and events are live",
+      "body": "喺傳送門揀「每日裂隙」或「每週裂隙」：全世界同一個種子同詞綴，第一次通關送金幣同傳奇，每日連續通關獎勵越嚟越多。開張慶典期間所有獎勵 +25%。",
+      "bodyEn": "Pick Daily or Weekly Rift at the portal: same seed and modifiers for everyone; the first clear pays gold and a legendary, and daily streaks pay more. All rewards +25% during the celebration."
+    }
+  ]
+}

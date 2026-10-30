@@ -1,0 +1,15 @@
+{
+  "_doc": "Live events for PROJECT: EVOLVE. Edit and push — no new build needed. reward = extra XP / gold / rarity (0.25 = +25%, max 2). Times are ISO (UTC).",
+  "events": [
+    {
+      "id": "launch-2026-11",
+      "title": "固定網址開張慶典",
+      "titleEn": "New Home Celebration",
+      "start": "2026-10-30T00:00:00Z",
+      "end": "2026-11-07T00:00:00Z",
+      "reward": 0.25,
+      "text": "遊戲搬去固定網址，存檔唔會再因更新而冇。慶祝一星期：所有區域獎勵 +25%！",
+      "textEn": "The game has a permanent address now, so updates won't wipe saves. One week of +25% rewards everywhere!"
+    }
+  ]
+}
