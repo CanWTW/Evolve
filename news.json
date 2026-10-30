@@ -2,6 +2,14 @@
   "_doc": "News shown in game (newest first). id changes trigger the popup once.",
   "news": [
     {
+      "id": "2026-10-30-v092",
+      "date": "2026-10-30",
+      "title": "新手村改版＋手機全螢幕",
+      "titleEn": "Village revamp + mobile fullscreen",
+      "body": "村入面而家有三個入口：右下「主線傳送門」揀區域（有圖示卡），「挑戰祭壇」玩每日／每週裂隙，「榮譽石碑」睇排行榜。右上新增 ⛶ 全螢幕掣；iPhone 可以「分享 → 加入主畫面」當 App 咁全螢幕玩。",
+      "bodyEn": "The village now has three entrances: the Zone Portal (zone cards with icons), the Challenge Altar (daily / weekly rifts) and the Hall of Fame (leaderboard). New ⛶ fullscreen button at the top right; on iPhone use Share → Add to Home Screen to play fullscreen like an app."
+    },
+    {
       "id": "2026-10-30-leaderboard",
       "date": "2026-10-30",
       "title": "每日／每週裂隙排行榜上線",
