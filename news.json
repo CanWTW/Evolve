@@ -2,6 +2,14 @@
   "_doc": "News shown in game (newest first). id changes trigger the popup once.",
   "news": [
     {
+      "id": "2026-10-30-v0130",
+      "date": "2026-10-30",
+      "title": "自己控制位移＋裝備更易認",
+      "titleEn": "Control your movement + clearer gear",
+      "body": "躍擊／疾風突擊唔再自己飛：按 E（或者滑鼠右鍵、手機「位移」掣）先會向住你移動嘅方向跳／衝；前面冇敵人就當走位用。想要舊玩法可以喺設定開「自動施放位移技能」。光環唔再觸發「踏地施放」（只限毒池、焦土等留喺地上嘅範圍）。同款技能珠會疊埋一格。每件傳奇有自己顏色，套裝綠色，遠古／太古有金／紅邊框；倉庫撳一下先睇詳情。",
+      "bodyEn": "Leap Slam / Dash Strike no longer fly on their own: press E (or right-click, or the Move button on phones) to leap / dash toward the direction you move; with nothing in front it repositions you. Turn on \"Auto-cast movement skills\" in Options for the old behaviour. Auras no longer fire Cast on Zone Enter (only ground zones like poison pools and scorched earth). Identical orbs stack in one cell. Every legendary has its own colour, sets are green, ancient / primal get gold / red frames; tap once in the stash to see details."
+    },
+    {
       "id": "2026-10-30-v0120",
       "date": "2026-10-30",
       "title": "終局更新（三）：全新音效同音樂",

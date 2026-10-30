@@ -1,6 +1,11 @@
 {
- "version": "0.12.1",
+ "version": "0.13.0",
  "notes": [
+  {
+   "v": "0.13.0",
+   "zh": "位移技能改為自己控制（E／右鍵／手機「位移」掣，向住移動方向）；光環唔再觸發「踏地施放」；同款技能珠疊埋一格（×N），背包上限計格數；裝備圖示每件傳奇唔同色、套裝綠色、遠古／太古有邊框同標記，倉庫可以先睇詳情先搬；新遊戲 icon。",
+   "en": "Movement skills are now player-controlled (E / right-click / touch Move button, toward your movement); auras no longer fire Cast on Zone Enter; identical orbs stack in one cell (×N) and the bag counts cells; every legendary has its own icon colour, sets are green, ancient / primal get frames and badges, the stash shows details before moving; new game icon."
+  },
   {
    "v": "0.12.1",
    "zh": "躍擊同疾風突擊唔再瞬移：跳躍有弧線、衝刺會滑過去，到達先出傷害；敵人已經喺身邊就原地攻擊，唔會再閃嚟閃去。",
