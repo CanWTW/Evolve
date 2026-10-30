@@ -1,6 +1,11 @@
 {
- "version": "0.9.8",
+ "version": "0.10.0",
  "notes": [
+  {
+   "v": "0.10.0",
+   "zh": "終局更新（一）：裂隙階級（打爆機後無限挑戰＋排行榜）、遠古／太古裝備、4 套套裝（Boss 指定掉落）。",
+   "en": "Endgame update (1): Rift Tiers (endless post-game ladder + leaderboard), ancient / primal gear, 4 item sets (targeted boss drops)."
+  },
   {
    "v": "0.9.8",
    "zh": "更新內容會自動跟網上更新。",

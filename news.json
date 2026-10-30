@@ -2,6 +2,14 @@
   "_doc": "News shown in game (newest first). id changes trigger the popup once.",
   "news": [
     {
+      "id": "2026-10-30-v0100",
+      "date": "2026-10-30",
+      "title": "終局更新（一）：裂隙階級＋套裝",
+      "titleEn": "Endgame update (1): Rift Tiers + sets",
+      "body": "打低虛空之主之後，主線傳送門會開放「裂隙階級」：由 T1 開始無限往上爬，每階怪物更強、掉落更好，有機會出遠古（詞綴更高）同 T10 起嘅太古裝備，仲有階級排行榜。新增 4 套套裝：大法師之道（法術）、戰神之怒（近戰）、疾風獵手（遠程）、亡靈君主（召喚），2 件同 4 件有額外效果；每個區域 Boss 有機會掉佢對應嘅套裝。",
+      "bodyEn": "After beating the Void Sovereign, the Zone Portal opens Rift Tiers: climb from T1 without limit; every tier has stronger monsters and better loot, with ancient (higher affixes) and, from T10, primal gear — plus a tier leaderboard. 4 new sets: Archmage's Way (spells), Warlord's Fury (melee), Gale Hunter (ranged), Lich Lord (minions), with 2- and 4-piece bonuses; each zone boss can drop its own set."
+    },
+    {
       "id": "2026-10-30-v097",
       "date": "2026-10-30",
       "title": "修正：重新載入會跳去 itch.io",
