@@ -2,6 +2,14 @@
   "_doc": "News shown in game (newest first). id changes trigger the popup once.",
   "news": [
     {
+      "id": "2026-10-30-v0110",
+      "date": "2026-10-30",
+      "title": "終局更新（二）：每局都唔同",
+      "titleEn": "Endgame update (2): every run is different",
+      "body": "戰場有地形柱（擋到敵人子彈，可以當掩護），灼熱峽谷有熔岩、冰封深淵有冰面、虛空神殿有減速區。每局會隨機出現事件：寶藏哥布林（追到有大量金幣同傳奇）、詛咒神壇（打低精英有寶箱）、精英群、力量神壇。1 分鐘同 2 分鐘各揀一張強化卡。挑戰祭壇新增 Boss 連戰：連續打 4 隻 Boss，比用時上排行榜。",
+      "bodyEn": "The arena now has pillars (they block enemy shots — use them as cover); Ember Canyon has lava, Frozen Abyss ice, Void Sanctum slowing rifts. Random events appear each run: Treasure Goblin (catch it for gold and a legendary), Cursed Shrine (beat the elites for a chest), Elite Pack, Power Shrine. Pick a boon card at 1 and 2 minutes. The Challenge Altar adds Boss Rush: all 4 bosses back to back, ranked by time."
+    },
+    {
       "id": "2026-10-30-v0100",
       "date": "2026-10-30",
       "title": "終局更新（一）：裂隙階級＋套裝",

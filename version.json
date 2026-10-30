@@ -1,6 +1,11 @@
 {
- "version": "0.10.0",
+ "version": "0.11.0",
  "notes": [
+  {
+   "v": "0.11.0",
+   "zh": "終局更新（二）：地形柱同區域地面（熔岩／冰面／虛空）、隨機事件（寶藏哥布林、詛咒神壇、精英群、力量神壇）、每局兩次強化卡、Boss 連戰模式＋排行榜。",
+   "en": "Endgame update (2): pillars and zone floors (lava / ice / void), random events (treasure goblin, cursed shrine, elite pack, power shrine), two boon picks per run, Boss Rush mode + leaderboard."
+  },
   {
    "v": "0.10.0",
    "zh": "終局更新（一）：裂隙階級（打爆機後無限挑戰＋排行榜）、遠古／太古裝備、4 套套裝（Boss 指定掉落）。",
