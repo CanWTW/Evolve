@@ -2,6 +2,14 @@
   "_doc": "News shown in game (newest first). id changes trigger the popup once.",
   "news": [
     {
+      "id": "2026-10-30-v095",
+      "date": "2026-10-30",
+      "title": "自動更新",
+      "titleEn": "Automatic updates",
+      "body": "之後有新版本，遊戲會自動重新載入（打緊嗰陣會喺底部顯示「重新載入」掣，撳之前會自動存檔），唔會再出現公告講咗更新但畫面仲係舊版。",
+      "bodyEn": "From now on the game reloads itself when a new version is out (during play a Reload button appears at the bottom; it autosaves first), so you won't be stuck on an old version after an update."
+    },
+    {
       "id": "2026-10-30-v094",
       "date": "2026-10-30",
       "title": "大螢幕介面放大＋唔會再誤跳頁",
