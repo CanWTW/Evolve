@@ -2,6 +2,14 @@
   "_doc": "News shown in game (newest first). id changes trigger the popup once.",
   "news": [
     {
+      "id": "2026-10-30-v097",
+      "date": "2026-10-30",
+      "title": "修正：重新載入會跳去 itch.io",
+      "titleEn": "Fixed: reloading jumped to itch.io",
+      "body": "遊戲檔入面殘留咗一段 itch.io 嘅檢查程式，喺 GitHub 版重新載入時會將頁面踢去 itch 嘅錯誤頁。已經刪除。",
+      "bodyEn": "A leftover itch.io checker script in the game file sent the page to itch's error page when reloading the GitHub version. It has been removed."
+    },
+    {
       "id": "2026-10-30-v096",
       "date": "2026-10-30",
       "title": "手機畫面放大",
