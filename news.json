@@ -2,6 +2,14 @@
   "_doc": "News shown in game (newest first). id changes trigger the popup once.",
   "news": [
     {
+      "id": "2026-10-30-v094",
+      "date": "2026-10-30",
+      "title": "大螢幕介面放大＋唔會再誤跳頁",
+      "titleEn": "Bigger menus on large monitors + no more accidental page jumps",
+      "body": "電腦大螢幕上，技能珠、裝備等畫面會跟視窗大細一齊放大，唔會再好空。觸控板左右掃、滑鼠返回掣或者瀏覽器「返回」唔會再離開遊戲，打緊嗰陣會改為暫停。",
+      "bodyEn": "On large monitors the orb, equipment and other menus now scale with the window instead of leaving lots of empty space. Touchpad swipes, the mouse back button or the browser Back button no longer leave the game; during a run they pause it."
+    },
+    {
       "id": "2026-10-30-v093",
       "date": "2026-10-30",
       "title": "雲端自動同步＋技能珠畫面重新設計",
