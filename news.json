@@ -2,6 +2,14 @@
   "_doc": "News shown in game (newest first). id changes trigger the popup once.",
   "news": [
     {
+      "id": "2026-10-30-v096",
+      "date": "2026-10-30",
+      "title": "手機畫面放大",
+      "titleEn": "Bigger view on phones",
+      "body": "手機上鏡頭會自動拉近 1.5 倍，角色同怪物大咗好多；可以喺「設定 → 畫面縮放」揀 1×（睇得最闊）、1.5× 或 2×。能力值畫面嘅詳細說明收埋咗喺「？說明」掣入面。",
+      "bodyEn": "On phones the camera now zooms in 1.5× automatically, so characters and monsters are much bigger; choose 1× (widest), 1.5× or 2× in Options → View zoom. The long attribute descriptions moved behind a ? Help button."
+    },
+    {
       "id": "2026-10-30-v095",
       "date": "2026-10-30",
       "title": "自動更新",
