@@ -1,6 +1,11 @@
 {
- "version": "0.17.2",
+ "version": "0.17.3",
  "notes": [
+  {
+   "v": "0.17.3",
+   "zh": "修正手機技能珠畫面左邊嘅技能欄唔見咗（背包欄霸晒畫面）。",
+   "en": "Fixed the skill bar disappearing from the left of the orb screen on phones (the bag took the whole width)."
+  },
   {
    "v": "0.17.2",
    "zh": "修正圖鑑「套裝」頁空白：而家會按套裝分組列出全部 16 件同套裝效果，套裝件都可以收藏。",
