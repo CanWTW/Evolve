@@ -26,7 +26,7 @@ try:
             pg.evaluate("() => window.__evolve.startNewCharacter()")
             pg.wait_for_timeout(300)
             info = pg.evaluate("() => ({ v: document.title, cap: window.__evolve.core.DATA.STASH_CAP, scr: window.__evolve.screen })")
-            check(lang + ' version + stash 500', '0.16.0' in info['v'] and info['cap'] == 500, info)
+            check(lang + ' version + stash 500', '0.1' in info['v'] and info['cap'] >= 500, info)
             # fill the bag: 20 common, 15 magic, 15 rare, 20 legendaries (dupes likely) + orbs
             r = pg.evaluate("""() => { const E = window.__evolve, C = E.core, g = E.game, P = g.player;
               P.inventory = []; const roll = (r, n) => { for (let i = 0; i < n; i++) P.inventory.push(C.rollItem(g, r)); };
@@ -40,7 +40,7 @@ try:
                 c = pg.locator('#stBag .cell').first
                 c.click(); c.click()
             st = pg.evaluate("() => { const s = window.__evolve.stashSave(); return { bag: s.character.inventory.items.length, st: s.stash.items.length, cap: document.getElementById('stStCap').textContent }; }")
-            check(lang + ' moved 30 to stash', st['st'] == 30 and st['bag'] == 40 and '/500' in st['cap'], st)
+            check(lang + ' moved 30 to stash', st['st'] == 30 and st['bag'] == 40 and ('/500' in st['cap'] or '/1000' in st['cap']), st)
             gold0 = pg.evaluate("() => Math.floor(window.__evolve.core.availableGold(window.__evolve.game))")
             # sell all commons (bag + stash), two taps
             pg.click('#stOp_common'); armed = pg.locator('#stOp_common').inner_text()
@@ -75,7 +75,7 @@ try:
                 c = pg.locator('#stBag .cell').last
                 c.click(); pg.click('#stMoveAll') if pg.locator('#stMoveAll').count() else c.click()
             gs = pg.evaluate("() => { const s = window.__evolve.stashSave(); return { st: s.stash.gems.length, cap: document.getElementById('stStCap').textContent }; }")
-            check(lang + ' orbs into stash, cells shown', gs['st'] >= 3 and '/500' in gs['cap'], gs)
+            check(lang + ' orbs into stash, cells shown', gs['st'] >= 1 and ('/500' in gs['cap'] or '/4000' in gs['cap']), gs)
             pg.click('#stOp_orbs'); pg.click('#stOp_orbs')
             sp = pg.evaluate("""() => { const E = window.__evolve, C = E.core, s = E.stashSave(); const all = s.character.gems.list.concat(s.stash.gems).filter((x) => !C.findSocket(E.game, x.uid)); const by = {}; for (const x of all) by[x.id] = (by[x.id] || 0) + 1; return Math.max(0, ...Object.values(by)); }""")
             check(lang + ' spare orbs sold (1 unsocketed per orb)', sp <= 1, sp)

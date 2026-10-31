@@ -1,6 +1,11 @@
 {
- "version": "0.16.1",
+ "version": "0.17.0",
  "notes": [
+  {
+   "v": "0.17.0",
+   "zh": "裝備重新設計：物品等級真正影響數值（武器傷害、法杖法術傷害、基礎屬性同詞綴範圍都隨等級大幅提升，傳奇按品級加強），舊裝備按比例換算；裝備比較而家列出所有屬性同每招自動技能每下傷害。新增圖鑑（技能珠／傳奇／套裝），每款傳奇可以收藏最好嘅一件。倉庫加大到 1000 件裝備＋4000 粒技能珠，可以喺倉庫一鍵融合同自動融合。裝備外觀按物品等級有唔同材質（鐵、青銅、霜銀、虛空、遠古、太古），傳奇有光點。多招技能有新特效，每招技能有自己嘅音效。修正技能珠畫面欄位忽大忽細，更新咗過時嘅說明。Z2–Z4 敵人相應加強。",
+   "en": "Gear redesign: item level now really matters (weapon damage, wand/staff spell power, implicits and affix ranges grow strongly with item level; legendaries scale with their grade); old gear is converted proportionally. Item comparison now lists every stat and each auto skill's damage per hit. New Codex (orbs / legendaries / sets) with a collection slot for the best copy of each legendary. Stash raised to 1000 items + 4000 orbs, with one-tap and automatic fusion inside the stash. Gear looks change by item level (iron, bronze, frost-silver, void, ancient, primal) and legendaries sparkle. New effects for many skills and a sound of its own for every skill. Fixed the orb screen columns changing size; outdated help texts updated. Zones 2–4 are tougher to match."
+  },
   {
    "v": "0.16.1",
    "zh": "手感更新：火焰衝刺、閃電傳送、冰霜閃現有移動動畫（火焰衝刺沿路燒地、閃電傳送化成閃電、冰霜閃現原地留低冰像），唔再一出即閃。融合奧義覺醒時有大橫額同畫面閃光，每次爆發前有 0.8 秒蓄力圈，傷害大約 ×2.3、冷卻 6 → 5 秒。技能進化有橫額提示，助攻都計進化值，門檻 30/90 → 20/60。元素共鳴加強（+15%／+30%），身邊有共鳴光點，HUD 顯示共鳴，並且每 4 秒向最近敵人發出共鳴脈衝（三相脈衝同時帶三種元素，方便觸發反應）。",

@@ -2,6 +2,14 @@
  "_doc": "News shown in game (newest first). id changes trigger the popup once.",
  "news": [
   {
+   "id": "v0170",
+   "date": "2026-10-31",
+   "title": "v0.17.0 裝備重做、圖鑑同大倉庫",
+   "titleEn": "v0.17.0 Gear rework, Codex and a huge stash",
+   "body": "高等級裝備而家明顯更強，裝備比較會列出全部屬性。新圖鑑記錄技能珠、傳奇同套裝，每款傳奇可以收藏最好嘅一件。倉庫可以放 1000 件裝備同 4000 粒技能珠，仲可以直接喺倉庫融合。裝備有材質外觀，技能有新特效同音效。",
+   "bodyEn": "Higher item levels are now clearly stronger, and comparisons list every stat. The new Codex records orbs, legendaries and sets, and keeps the best copy of each legendary. The stash holds 1000 items and 4000 orbs and can fuse orbs directly. Gear shows its material, and skills got new effects and sounds."
+  },
+  {
    "id": "v0161",
    "date": "2026-10-31",
    "title": "v0.16.1 位移動畫、融合同共鳴更明顯",
