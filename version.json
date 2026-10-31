@@ -1,6 +1,11 @@
 {
- "version": "0.15.2",
+ "version": "0.16.0",
  "notes": [
+  {
+   "v": "0.16.0",
+   "zh": "技能大改：3 個自動技能槽（Lv1／6／14），每招各自有輔助珠；觸發連結可以揀由邊招自動技能觸發。新招牌系統「技能進化」：喺村莊為每招技能揀進化路線（2 階 × 2 揀 1），入場後技能靠自己嘅擊殺逐階進化；兩招都進化到 II 就融合成「融合奧義」（15 種，按元素決定），每 6 秒自動爆發，有融合圖鑑同成就。元素共鳴：同元素加傷害、3 種唔同元素反應 +40%。新技能：火焰衝刺、閃電傳送、冰霜閃現（法術位移）、雷霆打擊、瘟疫傳播、召喚毒蛛。修正：焦土對所有技能生效、無效輔助珠唔可以鑲（並標示 ✕）、自動鑲嵌唔會亂放、觸發次數重複計算。技能珠畫面顯示每招本局傷害同施放次數。全部技能重新平衡；Z2–Z4 敵人生命 +25–30%。排行榜改為每個角色各自保留最好紀錄。",
+   "en": "Skill rework: 3 auto skill slots (Lv1/6/14), each with its own supports; trigger links pick which auto skill feeds them. New signature system, Skill Evolution: pick each skill's evolution path in the village (2 stages × 2 choices); in a run a skill evolves through its own kills, and two skills at stage II fuse into a Fusion (15, decided by their elements) that bursts every 6 s, with a codex and achievements. Elemental resonance: same-element bonus, three different elements give +40% reactions. New skills: Flame Dash, Lightning Warp, Frostblink (spell movement), Lightning Strike, Contagion, Summon Spiders. Fixes: Scorched Earth works on every skill, useless supports can't be socketed (and are marked ✕), auto-socketing no longer misplaces orbs, trigger counts were doubled. The orb screen shows each skill's damage and casts this run. Every skill rebalanced; Z2–Z4 enemy life +25–30%. Leaderboards keep one best record per character."
+  },
   {
    "v": "0.15.2",
    "zh": "倉庫 200 → 500 格，技能珠喺倉庫會疊埋（500 格）。倉庫新增一鍵賣：賣晒普通／魔法／稀有、賣重複傳奇（每款留最好一件）、賣出多餘技能珠，背包同倉庫一齊計，撳兩下確認；仲有「整理倉庫」同單件「賣」。裝備背包加「賣晒稀有」。自動賣出新增「普通＋魔法＋稀有（只留傳奇）」。手機倉庫畫面改為背包｜倉庫｜詳情並排，唔再遮住格仔。",

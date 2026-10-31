@@ -2,6 +2,14 @@
  "_doc": "News shown in game (newest first). id changes trigger the popup once.",
  "news": [
   {
+   "id": "v0160",
+   "date": "2026-10-30",
+   "title": "v0.16.0 技能進化與融合",
+   "titleEn": "v0.16.0 Skill Evolution and Fusion",
+   "body": "技能欄改為 3 個自動技能槽。喺技能珠畫面為每招技能揀進化路線，入場後技能會逐階進化；兩招都進化到 II 就會融合成融合奧義，一共 15 種等你喺成就畫面嘅融合圖鑑發現。另有 6 招新技能（包括 3 招法術位移）、焦土等 bug 修正、全技能平衡，排行榜改為每個角色各自計。",
+   "bodyEn": "The skill bar now has 3 auto skill slots. Pick an evolution path for each skill on the orb screen; in a run your skills evolve, and two skills at stage II fuse into one of 15 Fusions waiting to be found in the codex on the achievements screen. Also 6 new skills (3 spell movement skills), fixes including Scorched Earth, a full balance pass, and per-character leaderboards."
+  },
+  {
    "id": "v0152",
    "date": "2026-10-30",
    "title": "v0.15.2 倉庫擴充同一鍵清倉",
