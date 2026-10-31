@@ -1,6 +1,11 @@
 {
- "version": "0.17.0",
+ "version": "0.17.1",
  "notes": [
+  {
+   "v": "0.17.1",
+   "zh": "修正 0.17.0 讀唔到部分舊存檔（換算後數值超出範圍少少就當壞檔）：而家會自動修正；如果之前嘅角色冇咗，去「角色」畫面撳「恢復」就可以救返。修正手機冇聲（而家點擊／放手都會開聲，鎖機或者轉 app 返嚟會自動恢復）。元素共鳴同融合而家按轉換之後嘅元素計。技能珠背包新增分類：近戰、遠程、法術、召喚、持續、位移、有用輔助。裝備等級要求降低（Z2 Lv8、Z3 Lv18、Z4 Lv30），等級低過區域建議等級時經驗最多 +150%。",
+   "en": "Fixed 0.17.0 rejecting some older saves (a converted value just past its range marked the file as broken): values are now repaired, and a character that went missing can be recovered with Restore on the Characters screen. Fixed missing sound on phones (audio now starts on tap release / click and resumes after locking or switching apps). Resonance and fusions now use the element after conversion supports. New orb bag filters: melee, ranged, spells, minions, persistent, movement, useful supports. Lower gear requirements (Z2 Lv8, Z3 Lv18, Z4 Lv30) and up to +150% XP while under a zone's recommended level."
+  },
   {
    "v": "0.17.0",
    "zh": "裝備重新設計：物品等級真正影響數值（武器傷害、法杖法術傷害、基礎屬性同詞綴範圍都隨等級大幅提升，傳奇按品級加強），舊裝備按比例換算；裝備比較而家列出所有屬性同每招自動技能每下傷害。新增圖鑑（技能珠／傳奇／套裝），每款傳奇可以收藏最好嘅一件。倉庫加大到 1000 件裝備＋4000 粒技能珠，可以喺倉庫一鍵融合同自動融合。裝備外觀按物品等級有唔同材質（鐵、青銅、霜銀、虛空、遠古、太古），傳奇有光點。多招技能有新特效，每招技能有自己嘅音效。修正技能珠畫面欄位忽大忽細，更新咗過時嘅說明。Z2–Z4 敵人相應加強。",

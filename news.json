@@ -2,6 +2,14 @@
  "_doc": "News shown in game (newest first). id changes trigger the popup once.",
  "news": [
   {
+   "id": "v0171",
+   "date": "2026-10-31",
+   "title": "v0.17.1 存檔恢復同修正",
+   "titleEn": "v0.17.1 Save recovery and fixes",
+   "body": "如果 0.17.0 更新之後你嘅舊角色唔見咗，打開「角色」畫面撳「恢復」就可以救返（會放入空嘅存檔位，唔會覆蓋新角色）。另外修正手機冇聲、共鳴計轉換元素、技能珠分類、裝備等級要求同落後經驗加成。",
+   "bodyEn": "If your character went missing after the 0.17.0 update, open Characters and tap Restore (it goes into an empty slot, your new character stays). Also fixes for sound on phones, resonance with conversions, orb filters, gear requirements and catch-up XP."
+  },
+  {
    "id": "v0170",
    "date": "2026-10-31",
    "title": "v0.17.0 裝備重做、圖鑑同大倉庫",
