@@ -62,6 +62,8 @@ try:
         check('collect best (ilvl 3 of 1/2/3) leaves the bag', X['colIlvl'] == 3 and X['after'] == X['before'] - 1, X)
         check('codex lists legendaries + records orbs', X['rows'] >= 5 and X['orbs'] >= 2, X)
         pg.screenshot(path=shots + '/v17_codex_u.png')
+        SX = pg.evaluate("() => { const E = window.__evolve; let err = null; try { E.cxTab = 'sets'; E.renderCodex(); } catch (e) { err = e.message; } return { err, rows: document.querySelectorAll('#cxBody .cxrow').length, grp: document.querySelectorAll('#cxBody .cxgrp').length }; }")
+        check('codex sets tab: 4 sets, 16 pieces', SX['err'] is None and SX['rows'] == 16 and SX['grp'] == 4, SX)
         pg.evaluate("() => { const E = window.__evolve; E.cxTab = 'orbs'; E.cxSel = 'support.area'; E.renderCodex(); }"); pg.wait_for_timeout(100)
         pg.screenshot(path=shots + '/v17_codex_o.png')
         T = pg.evaluate("() => { const E = window.__evolve; E.cxTakeOut(Object.keys(E.save.progress.collection)[0]); return Object.keys(E.save.progress.collection).length; }")
