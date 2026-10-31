@@ -2,6 +2,14 @@
  "_doc": "News shown in game (newest first). id changes trigger the popup once.",
  "news": [
   {
+   "id": "v0150",
+   "date": "2026-10-30",
+   "title": "v0.15.0 技能系統重製",
+   "titleEn": "v0.15.0 Skill system rework",
+   "body": "技能欄而家分 ★主力、位移、持續三部分，所有連結都跟主力觸發。新增格擋、雷霆護盾（格擋放連鎖閃電）、荊棘、冰霜護甲、戰意、復仇同三種元素灌注。商店有齊新珠。舊存檔會自動整理，冇珠會唔見。",
+   "bodyEn": "The skill bar is now ★Primary, Movement and Persistent; every link is fed by the Primary. New: block, Lightning Ward (chain lightning on block), Thorns, Frost Armour, Battle Rage, Vengeance and three elemental infusions — all in the shop. Old saves are re-sorted automatically; no orbs are lost."
+  },
+  {
    "id": "v0140",
    "date": "2026-10-30",
    "title": "v0.14.0 技能大改：主力技能＋持續光環",
