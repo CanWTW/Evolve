@@ -1,6 +1,11 @@
 {
- "version": "0.17.3",
+ "version": "0.17.4",
  "notes": [
+  {
+   "v": "0.17.4",
+   "zh": "技能珠背包嘅分類掣改成一行，可以左右滑（滑鼠滾輪都得），唔再佔走背包嘅位置；背包標題同按鈕唔會再疊埋說明欄；元素反應表唔會再畀人裁走。",
+   "en": "Orb bag filters now sit in one row you can swipe (or scroll with the mouse wheel), so they no longer push the bag off screen; the bag header no longer overlaps the help column; the reactions table no longer gets cut off."
+  },
   {
    "v": "0.17.3",
    "zh": "修正手機技能珠畫面左邊嘅技能欄唔見咗（背包欄霸晒畫面）。",
