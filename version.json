@@ -1,6 +1,11 @@
 {
- "version": "0.15.1",
+ "version": "0.15.2",
  "notes": [
+  {
+   "v": "0.15.2",
+   "zh": "倉庫 200 → 500 格，技能珠喺倉庫會疊埋（500 格）。倉庫新增一鍵賣：賣晒普通／魔法／稀有、賣重複傳奇（每款留最好一件）、賣出多餘技能珠，背包同倉庫一齊計，撳兩下確認；仲有「整理倉庫」同單件「賣」。裝備背包加「賣晒稀有」。自動賣出新增「普通＋魔法＋稀有（只留傳奇）」。手機倉庫畫面改為背包｜倉庫｜詳情並排，唔再遮住格仔。",
+   "en": "Stash 200 → 500 slots; orbs stack in the stash (500 cells). Stash bulk sell: commons / magic / rares, duplicate legendaries (keeps the best of each) and spare orbs, counting bag + stash, two taps to confirm; plus Sort stash and single-item Sell. Gear bag gets Sell rares. Auto-sell adds Common + Magic + Rare (keep legendaries). Phone stash screen now shows bag | stash | details side by side."
+  },
   {
    "v": "0.15.1",
    "zh": "技能特效大翻新：新增粒子系統；每種投射物有自己嘅樣同拖尾（寒冰長矛、閃電箭、腐蝕箭、爆炸箭、龍捲射擊、致命狙擊曳光、回旋飛刃…）；近戰每招有自己嘅揮擊（旋風、雙重打擊突刺、毒刃爪痕、裂地斬地裂、爆焰擊火舌、重擊震波）；命中按元素有唔同爆點，暴擊有金星；持續技能各有身邊特效（護盾電弧、冰甲冰晶、外衣火舌、戰意層數…）。",

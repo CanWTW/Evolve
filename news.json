@@ -2,6 +2,14 @@
  "_doc": "News shown in game (newest first). id changes trigger the popup once.",
  "news": [
   {
+   "id": "v0152",
+   "date": "2026-10-30",
+   "title": "v0.15.2 倉庫擴充同一鍵清倉",
+   "titleEn": "v0.15.2 Bigger stash and bulk selling",
+   "body": "倉庫加到 500 格，技能珠會疊埋。倉庫可以一鍵賣晒普通／魔法／稀有、重複傳奇同多餘技能珠，仲可以整理。設定入面嘅自動賣出可以揀「只留傳奇」。",
+   "bodyEn": "The stash now holds 500 items and orbs stack. Sell commons, magic, rares, duplicate legendaries or spare orbs in one go, and sort the stash. Auto-sell in Options can now keep legendaries only."
+  },
+  {
    "id": "v0151",
    "date": "2026-10-30",
    "title": "v0.15.1 技能特效大翻新",
