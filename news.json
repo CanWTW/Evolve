@@ -2,6 +2,14 @@
  "_doc": "News shown in game (newest first). id changes trigger the popup once.",
  "news": [
   {
+   "id": "v0161",
+   "date": "2026-10-31",
+   "title": "v0.16.1 位移動畫、融合同共鳴更明顯",
+   "titleEn": "v0.16.1 Movement animations, louder fusions and resonance",
+   "body": "三招法術位移而家有完整移動動畫。融合奧義覺醒同每次爆發都有大橫額、蓄力圈同閃光，傷害加強。元素共鳴加強，身邊有光點，仲會每 4 秒向敵人發出共鳴脈衝。技能進化更快達成。",
+   "bodyEn": "The three spell movement skills now animate their travel. Fusions announce themselves with a banner, a charge ring and a flash, and hit harder. Elemental resonance is stronger, shows around you and fires a pulse at enemies every 4 s. Skills evolve sooner."
+  },
+  {
    "id": "v0160",
    "date": "2026-10-30",
    "title": "v0.16.0 技能進化與融合",

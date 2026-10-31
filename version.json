@@ -1,6 +1,11 @@
 {
- "version": "0.16.0",
+ "version": "0.16.1",
  "notes": [
+  {
+   "v": "0.16.1",
+   "zh": "手感更新：火焰衝刺、閃電傳送、冰霜閃現有移動動畫（火焰衝刺沿路燒地、閃電傳送化成閃電、冰霜閃現原地留低冰像），唔再一出即閃。融合奧義覺醒時有大橫額同畫面閃光，每次爆發前有 0.8 秒蓄力圈，傷害大約 ×2.3、冷卻 6 → 5 秒。技能進化有橫額提示，助攻都計進化值，門檻 30/90 → 20/60。元素共鳴加強（+15%／+30%），身邊有共鳴光點，HUD 顯示共鳴，並且每 4 秒向最近敵人發出共鳴脈衝（三相脈衝同時帶三種元素，方便觸發反應）。",
+   "en": "Feel update: Flame Dash, Lightning Warp and Frostblink now travel on screen (fire trail laid as you go, a lightning streak, an ice copy left behind) instead of popping. Fusions awaken with a big banner and a screen flash, show a 0.8 s charge ring before every burst, deal about 2.3× more and fire every 5 s (was 6). Evolution stages show a banner, assists count, thresholds 30/90 → 20/60. Elemental resonance is stronger (+15% / +30%), shows motes around you and a HUD chip, and fires a resonance pulse at the nearest enemy every 4 s (the Trinity pulse carries all three elements to set up reactions)."
+  },
   {
    "v": "0.16.0",
    "zh": "技能大改：3 個自動技能槽（Lv1／6／14），每招各自有輔助珠；觸發連結可以揀由邊招自動技能觸發。新招牌系統「技能進化」：喺村莊為每招技能揀進化路線（2 階 × 2 揀 1），入場後技能靠自己嘅擊殺逐階進化；兩招都進化到 II 就融合成「融合奧義」（15 種，按元素決定），每 6 秒自動爆發，有融合圖鑑同成就。元素共鳴：同元素加傷害、3 種唔同元素反應 +40%。新技能：火焰衝刺、閃電傳送、冰霜閃現（法術位移）、雷霆打擊、瘟疫傳播、召喚毒蛛。修正：焦土對所有技能生效、無效輔助珠唔可以鑲（並標示 ✕）、自動鑲嵌唔會亂放、觸發次數重複計算。技能珠畫面顯示每招本局傷害同施放次數。全部技能重新平衡；Z2–Z4 敵人生命 +25–30%。排行榜改為每個角色各自保留最好紀錄。",
