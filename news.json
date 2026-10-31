@@ -2,6 +2,14 @@
  "_doc": "News shown in game (newest first). id changes trigger the popup once.",
  "news": [
   {
+   "id": "v0151",
+   "date": "2026-10-30",
+   "title": "v0.15.1 技能特效大翻新",
+   "titleEn": "v0.15.1 VFX overhaul",
+   "body": "每招技能而家都有自己嘅特效：投射物外形同拖尾、近戰揮擊、命中爆點、暴擊金星，持續技能身邊亦有專屬特效。",
+   "bodyEn": "Every skill now has its own effects: projectile shapes and trails, melee swings, hit bursts, crit stars, and a visual for each persistent skill."
+  },
+  {
    "id": "v0150",
    "date": "2026-10-30",
    "title": "v0.15.0 技能系統重製",

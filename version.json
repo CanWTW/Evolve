@@ -1,6 +1,11 @@
 {
- "version": "0.15.0",
+ "version": "0.15.1",
  "notes": [
+  {
+   "v": "0.15.1",
+   "zh": "技能特效大翻新：新增粒子系統；每種投射物有自己嘅樣同拖尾（寒冰長矛、閃電箭、腐蝕箭、爆炸箭、龍捲射擊、致命狙擊曳光、回旋飛刃…）；近戰每招有自己嘅揮擊（旋風、雙重打擊突刺、毒刃爪痕、裂地斬地裂、爆焰擊火舌、重擊震波）；命中按元素有唔同爆點，暴擊有金星；持續技能各有身邊特效（護盾電弧、冰甲冰晶、外衣火舌、戰意層數…）。",
+   "en": "VFX overhaul: new particle system; every projectile has its own look and trail; each melee skill has its own swing (spin, thrusts, claws, ground cracks, flame tongues, shockwaves); element-specific hit bursts with crit stars; every persistent skill has its own visual around you."
+  },
   {
    "v": "0.15.0",
    "zh": "技能系統重製：技能欄分做 ★主力（自動出招）、位移（手動）、持續 ×3（光環／先驅／護盾／灌注）。全部觸發連結都由主力觸發（受傷／閃避／格擋由你觸發，新「位移施放」由位移技能觸發），Lv3／10／20／35 解鎖 4 條。新增格擋同 9 個持續技能：雷霆護盾、冰霜護甲、荊棘、烈焰外衣、戰意、復仇、火／冰／電灌注；新輔助「反擊強化」「格擋強化」；新觸發「格擋施放」「位移施放」。舊存檔自動整理，多出嘅技能珠放返背包。",
