@@ -1,155 +1,160 @@
 {
- "version": "0.17.4",
- "notes": [
-  {
-   "v": "0.17.4",
-   "zh": "技能珠背包嘅分類掣改成一行，可以左右滑（滑鼠滾輪都得），唔再佔走背包嘅位置；背包標題同按鈕唔會再疊埋說明欄；元素反應表唔會再畀人裁走。",
-   "en": "Orb bag filters now sit in one row you can swipe (or scroll with the mouse wheel), so they no longer push the bag off screen; the bag header no longer overlaps the help column; the reactions table no longer gets cut off."
-  },
-  {
-   "v": "0.17.3",
-   "zh": "修正手機技能珠畫面左邊嘅技能欄唔見咗（背包欄霸晒畫面）。",
-   "en": "Fixed the skill bar disappearing from the left of the orb screen on phones (the bag took the whole width)."
-  },
-  {
-   "v": "0.17.2",
-   "zh": "修正圖鑑「套裝」頁空白：而家會按套裝分組列出全部 16 件同套裝效果，套裝件都可以收藏。",
-   "en": "Fixed the empty Sets tab in the Codex: all 16 pieces are listed by set with their bonuses, and set pieces can be collected."
-  },
-  {
-   "v": "0.17.1",
-   "zh": "修正 0.17.0 讀唔到部分舊存檔（換算後數值超出範圍少少就當壞檔）：而家會自動修正；如果之前嘅角色冇咗，去「角色」畫面撳「恢復」就可以救返。修正手機冇聲（而家點擊／放手都會開聲，鎖機或者轉 app 返嚟會自動恢復）。元素共鳴同融合而家按轉換之後嘅元素計。技能珠背包新增分類：近戰、遠程、法術、召喚、持續、位移、有用輔助。裝備等級要求降低（Z2 Lv8、Z3 Lv18、Z4 Lv30），等級低過區域建議等級時經驗最多 +150%。",
-   "en": "Fixed 0.17.0 rejecting some older saves (a converted value just past its range marked the file as broken): values are now repaired, and a character that went missing can be recovered with Restore on the Characters screen. Fixed missing sound on phones (audio now starts on tap release / click and resumes after locking or switching apps). Resonance and fusions now use the element after conversion supports. New orb bag filters: melee, ranged, spells, minions, persistent, movement, useful supports. Lower gear requirements (Z2 Lv8, Z3 Lv18, Z4 Lv30) and up to +150% XP while under a zone's recommended level."
-  },
-  {
-   "v": "0.17.0",
-   "zh": "裝備重新設計：物品等級真正影響數值（武器傷害、法杖法術傷害、基礎屬性同詞綴範圍都隨等級大幅提升，傳奇按品級加強），舊裝備按比例換算；裝備比較而家列出所有屬性同每招自動技能每下傷害。新增圖鑑（技能珠／傳奇／套裝），每款傳奇可以收藏最好嘅一件。倉庫加大到 1000 件裝備＋4000 粒技能珠，可以喺倉庫一鍵融合同自動融合。裝備外觀按物品等級有唔同材質（鐵、青銅、霜銀、虛空、遠古、太古），傳奇有光點。多招技能有新特效，每招技能有自己嘅音效。修正技能珠畫面欄位忽大忽細，更新咗過時嘅說明。Z2–Z4 敵人相應加強。",
-   "en": "Gear redesign: item level now really matters (weapon damage, wand/staff spell power, implicits and affix ranges grow strongly with item level; legendaries scale with their grade); old gear is converted proportionally. Item comparison now lists every stat and each auto skill's damage per hit. New Codex (orbs / legendaries / sets) with a collection slot for the best copy of each legendary. Stash raised to 1000 items + 4000 orbs, with one-tap and automatic fusion inside the stash. Gear looks change by item level (iron, bronze, frost-silver, void, ancient, primal) and legendaries sparkle. New effects for many skills and a sound of its own for every skill. Fixed the orb screen columns changing size; outdated help texts updated. Zones 2–4 are tougher to match."
-  },
-  {
-   "v": "0.16.1",
-   "zh": "手感更新：火焰衝刺、閃電傳送、冰霜閃現有移動動畫（火焰衝刺沿路燒地、閃電傳送化成閃電、冰霜閃現原地留低冰像），唔再一出即閃。融合奧義覺醒時有大橫額同畫面閃光，每次爆發前有 0.8 秒蓄力圈，傷害大約 ×2.3、冷卻 6 → 5 秒。技能進化有橫額提示，助攻都計進化值，門檻 30/90 → 20/60。元素共鳴加強（+15%／+30%），身邊有共鳴光點，HUD 顯示共鳴，並且每 4 秒向最近敵人發出共鳴脈衝（三相脈衝同時帶三種元素，方便觸發反應）。",
-   "en": "Feel update: Flame Dash, Lightning Warp and Frostblink now travel on screen (fire trail laid as you go, a lightning streak, an ice copy left behind) instead of popping. Fusions awaken with a big banner and a screen flash, show a 0.8 s charge ring before every burst, deal about 2.3× more and fire every 5 s (was 6). Evolution stages show a banner, assists count, thresholds 30/90 → 20/60. Elemental resonance is stronger (+15% / +30%), shows motes around you and a HUD chip, and fires a resonance pulse at the nearest enemy every 4 s (the Trinity pulse carries all three elements to set up reactions)."
-  },
-  {
-   "v": "0.16.0",
-   "zh": "技能大改：3 個自動技能槽（Lv1／6／14），每招各自有輔助珠；觸發連結可以揀由邊招自動技能觸發。新招牌系統「技能進化」：喺村莊為每招技能揀進化路線（2 階 × 2 揀 1），入場後技能靠自己嘅擊殺逐階進化；兩招都進化到 II 就融合成「融合奧義」（15 種，按元素決定），每 6 秒自動爆發，有融合圖鑑同成就。元素共鳴：同元素加傷害、3 種唔同元素反應 +40%。新技能：火焰衝刺、閃電傳送、冰霜閃現（法術位移）、雷霆打擊、瘟疫傳播、召喚毒蛛。修正：焦土對所有技能生效、無效輔助珠唔可以鑲（並標示 ✕）、自動鑲嵌唔會亂放、觸發次數重複計算。技能珠畫面顯示每招本局傷害同施放次數。全部技能重新平衡；Z2–Z4 敵人生命 +25–30%。排行榜改為每個角色各自保留最好紀錄。",
-   "en": "Skill rework: 3 auto skill slots (Lv1/6/14), each with its own supports; trigger links pick which auto skill feeds them. New signature system, Skill Evolution: pick each skill's evolution path in the village (2 stages × 2 choices); in a run a skill evolves through its own kills, and two skills at stage II fuse into a Fusion (15, decided by their elements) that bursts every 6 s, with a codex and achievements. Elemental resonance: same-element bonus, three different elements give +40% reactions. New skills: Flame Dash, Lightning Warp, Frostblink (spell movement), Lightning Strike, Contagion, Summon Spiders. Fixes: Scorched Earth works on every skill, useless supports can't be socketed (and are marked ✕), auto-socketing no longer misplaces orbs, trigger counts were doubled. The orb screen shows each skill's damage and casts this run. Every skill rebalanced; Z2–Z4 enemy life +25–30%. Leaderboards keep one best record per character."
-  },
-  {
-   "v": "0.15.2",
-   "zh": "倉庫 200 → 500 格，技能珠喺倉庫會疊埋（500 格）。倉庫新增一鍵賣：賣晒普通／魔法／稀有、賣重複傳奇（每款留最好一件）、賣出多餘技能珠，背包同倉庫一齊計，撳兩下確認；仲有「整理倉庫」同單件「賣」。裝備背包加「賣晒稀有」。自動賣出新增「普通＋魔法＋稀有（只留傳奇）」。手機倉庫畫面改為背包｜倉庫｜詳情並排，唔再遮住格仔。",
-   "en": "Stash 200 → 500 slots; orbs stack in the stash (500 cells). Stash bulk sell: commons / magic / rares, duplicate legendaries (keeps the best of each) and spare orbs, counting bag + stash, two taps to confirm; plus Sort stash and single-item Sell. Gear bag gets Sell rares. Auto-sell adds Common + Magic + Rare (keep legendaries). Phone stash screen now shows bag | stash | details side by side."
-  },
-  {
-   "v": "0.15.1",
-   "zh": "技能特效大翻新：新增粒子系統；每種投射物有自己嘅樣同拖尾（寒冰長矛、閃電箭、腐蝕箭、爆炸箭、龍捲射擊、致命狙擊曳光、回旋飛刃…）；近戰每招有自己嘅揮擊（旋風、雙重打擊突刺、毒刃爪痕、裂地斬地裂、爆焰擊火舌、重擊震波）；命中按元素有唔同爆點，暴擊有金星；持續技能各有身邊特效（護盾電弧、冰甲冰晶、外衣火舌、戰意層數…）。",
-   "en": "VFX overhaul: new particle system; every projectile has its own look and trail; each melee skill has its own swing (spin, thrusts, claws, ground cracks, flame tongues, shockwaves); element-specific hit bursts with crit stars; every persistent skill has its own visual around you."
-  },
-  {
-   "v": "0.15.0",
-   "zh": "技能系統重製：技能欄分做 ★主力（自動出招）、位移（手動）、持續 ×3（光環／先驅／護盾／灌注）。全部觸發連結都由主力觸發（受傷／閃避／格擋由你觸發，新「位移施放」由位移技能觸發），Lv3／10／20／35 解鎖 4 條。新增格擋同 9 個持續技能：雷霆護盾、冰霜護甲、荊棘、烈焰外衣、戰意、復仇、火／冰／電灌注；新輔助「反擊強化」「格擋強化」；新觸發「格擋施放」「位移施放」。舊存檔自動整理，多出嘅技能珠放返背包。",
-   "en": "Skill system rework: the bar is now ★Primary (auto-cast), Movement (manual) and 3 Persistent slots (auras, heralds, wards, infusions). Every trigger link is fed by the Primary (Damaged/Dodge/Block by you, new Cast on Landing by the movement skill); 4 links unlock at Lv3/10/20/35. New block mechanic and 9 persistent skills: Lightning Ward, Frost Armour, Thorns, Flame Cloak, Battle Rage, Vengeance, Fire/Cold/Lightning Infusion; new supports Retaliation and Bulwark; new triggers Cast on Block and Cast on Landing. Old saves are re-sorted automatically; extra orbs go back to the bag."
-  },
-  {
-   "v": "0.14.0",
-   "zh": "技能大改（參考 PoE）：主1 變★主力技能（傷害 ×1.3）；觸發連結固定由上面嗰招觸發；新增 10 個持續技能（憤怒、憎恨、雷霆之怒、鋼鐵意志、迅捷、精準、紀律、統御、冰霜先驅、雷霆先驅），放入主技能格長期強化角色；新輔助珠「光環強化」。修正：開機公告同主畫面公告一致；紅點分開技能珠／裝備。",
-   "en": "Skill rework (PoE-inspired): main 1 is now the ★Primary skill (×1.3 damage); trigger links are fed by the skill above them; 10 persistent skills (auras & heralds) that buff you from a main slot; new Aura Amplifier support. Fixes: startup news matches the title news; red dots now separate orbs and gear."
-  },
-  {
-   "v": "0.13.2",
-   "zh": "「尋寶」改為「掉寶率」：每 +1% = 裝備掉落機率 +1%，另加 +0.5% 稀有度（取代經驗／金幣加成）。",
-   "en": "\"Treasure find\" became \"drop rate\": every +1% = +1% item drop chance plus +0.5% rarity (replacing the XP / gold bonus)."
-  },
-  {
-   "v": "0.13.1",
-   "zh": "所有掉落（經驗、金幣、裝備、技能珠）都會自動飛去你身上（補血球只喺唔夠血時先飛）；打低 Boss 後地上剩低嘅嘢自動拾取，背包滿就入倉庫；「拾取範圍」改為「尋寶」：經驗同金幣各加一半。",
-   "en": "Every drop (XP, gold, items, orbs) now flies to you (heal orbs only when you're hurt); after a boss, anything left on the ground is collected automatically, overflow goes to the stash; \"pickup radius\" became \"treasure find\": half as XP and half as gold."
-  },
-  {
-   "v": "0.13.0",
-   "zh": "位移技能改為自己控制（E／右鍵／手機「位移」掣，向住移動方向）；光環唔再觸發「踏地施放」；同款技能珠疊埋一格（×N），背包上限計格數；裝備圖示每件傳奇唔同色、套裝綠色、遠古／太古有邊框同標記，倉庫可以先睇詳情先搬；新遊戲 icon。",
-   "en": "Movement skills are now player-controlled (E / right-click / touch Move button, toward your movement); auras no longer fire Cast on Zone Enter; identical orbs stack in one cell (×N) and the bag counts cells; every legendary has its own icon colour, sets are green, ancient / primal get frames and badges, the stash shows details before moving; new game icon."
-  },
-  {
-   "v": "0.12.1",
-   "zh": "躍擊同疾風突擊唔再瞬移：跳躍有弧線、衝刺會滑過去，到達先出傷害；敵人已經喺身邊就原地攻擊，唔會再閃嚟閃去。",
-   "en": "Leap Slam and Dash Strike no longer teleport: the leap arcs and the dash slides, damage lands on arrival; if the enemy is already next to you they hit in place instead of flickering around."
-  },
-  {
-   "v": "0.12.0",
-   "zh": "終局更新（三）：全新音效系統——立體聲、迴響、42 種音效（暴擊、元素反應、精英、傳奇／套裝／遠古掉落、哥布林、神壇、Boss 預警、低血心跳…），每個區域、Boss、裂隙階級同 Boss 連戰都有自己嘅節奏音樂。",
-   "en": "Endgame update (3): new sound engine — stereo, echo, 42 sounds (crits, reactions, elites, legendary / set / ancient drops, goblin, shrines, boss warnings, low-life heartbeat…) and beat-driven music for every zone, bosses, rift tiers and boss rush."
-  },
-  {
-   "v": "0.11.0",
-   "zh": "終局更新（二）：地形柱同區域地面（熔岩／冰面／虛空）、隨機事件（寶藏哥布林、詛咒神壇、精英群、力量神壇）、每局兩次強化卡、Boss 連戰模式＋排行榜。",
-   "en": "Endgame update (2): pillars and zone floors (lava / ice / void), random events (treasure goblin, cursed shrine, elite pack, power shrine), two boon picks per run, Boss Rush mode + leaderboard."
-  },
-  {
-   "v": "0.10.0",
-   "zh": "終局更新（一）：裂隙階級（打爆機後無限挑戰＋排行榜）、遠古／太古裝備、4 套套裝（Boss 指定掉落）。",
-   "en": "Endgame update (1): Rift Tiers (endless post-game ladder + leaderboard), ancient / primal gear, 4 item sets (targeted boss drops)."
-  },
-  {
-   "v": "0.9.8",
-   "zh": "更新內容會自動跟網上更新。",
-   "en": "Patch notes now update online automatically."
-  },
-  {
-   "v": "0.9.7",
-   "zh": "修正重新載入會跳去 itch.io 嘅問題；itch 頁面改為「開始玩」掣。",
-   "en": "Fixed reloading jumping to itch.io; the itch page is now a Play button."
-  },
-  {
-   "v": "0.9.6",
-   "zh": "手機鏡頭拉近（設定可揀 1×／1.5×／2×）；能力值說明收入「？說明」。",
-   "en": "Closer camera on phones (1× / 1.5× / 2× in Options); attribute details moved behind \"? Help\"."
-  },
-  {
-   "v": "0.9.5",
-   "zh": "有新版本時自動重新載入。",
-   "en": "Reloads automatically when a new version is out."
-  },
-  {
-   "v": "0.9.4",
-   "zh": "大螢幕介面放大；裝備背包精簡。",
-   "en": "Menus scale up on large monitors; tidier equipment bag."
-  },
-  {
-   "v": "0.9.3",
-   "zh": "技能珠同裝備分開兩個畫面，技能珠畫面重新設計；雲端存檔自動同步；修正手機撳唔到「繼續」。",
-   "en": "Orbs and equipment are separate screens, redesigned orb screen; cloud saves auto-sync; fixed Continue not responding to taps on phones."
-  },
-  {
-   "v": "0.9.2",
-   "zh": "村莊三個入口（主線傳送門、挑戰祭壇、榮譽石碑）；全螢幕同加入主畫面。",
-   "en": "Three village entrances (Zone Portal, Challenge Altar, Hall of Fame); fullscreen and Add to Home Screen."
-  },
-  {
-   "v": "0.9.1",
-   "zh": "Google／Discord 登入同雲端存檔。",
-   "en": "Google / Discord sign-in and cloud saves."
-  },
-  {
-   "v": "0.9.0",
-   "zh": "每日／每週裂隙排行榜。",
-   "en": "Daily / weekly rift leaderboards."
-  },
-  {
-   "v": "0.8.9",
-   "zh": "每日／每週裂隙、連續每日獎勵、活動同公告系統。",
-   "en": "Daily / weekly rifts, daily streak rewards, events and news."
-  },
-  {
-   "v": "0.8.8",
-   "zh": "20 個成就，解鎖送金幣。",
-   "en": "20 achievements with gold rewards."
-  },
-  {
-   "v": "0.8.7",
-   "zh": "裂隙詞綴：出發前揀風險，換經驗、金幣同稀有度。",
-   "en": "Rift modifiers: pick risks for more XP, gold and rarity."
-  }
- ]
+  "version": "0.18.0",
+  "notes": [
+    {
+      "v": "0.18.0",
+      "zh": "難度等級（普通／困難／地獄，越難掉寶越好）＋整體加難；角色資料：全伺服器唯一角色名、角色 ID、改名、加好友同在線狀態；觸發連鎖（連結可以由另一條連結施放嘅技能觸發）；技能特效加光暈、衝擊波、刀光同地面痕跡；裝備比較改為顯示秒傷。",
+      "en": "Difficulty levels (Normal / Hard / Hell, better loot on harder) and a harder baseline; profile: server-unique names, character IDs, rename, friends and online status; trigger chains (a link can be fed by a skill another link casts); skill VFX with glow, shockwaves, blade crescents and ground marks; gear comparison shows DPS."
+    },
+    {
+      "v": "0.17.4",
+      "zh": "技能珠背包嘅分類掣改成一行，可以左右滑（滑鼠滾輪都得），唔再佔走背包嘅位置；背包標題同按鈕唔會再疊埋說明欄；元素反應表唔會再畀人裁走。",
+      "en": "Orb bag filters now sit in one row you can swipe (or scroll with the mouse wheel), so they no longer push the bag off screen; the bag header no longer overlaps the help column; the reactions table no longer gets cut off."
+    },
+    {
+      "v": "0.17.3",
+      "zh": "修正手機技能珠畫面左邊嘅技能欄唔見咗（背包欄霸晒畫面）。",
+      "en": "Fixed the skill bar disappearing from the left of the orb screen on phones (the bag took the whole width)."
+    },
+    {
+      "v": "0.17.2",
+      "zh": "修正圖鑑「套裝」頁空白：而家會按套裝分組列出全部 16 件同套裝效果，套裝件都可以收藏。",
+      "en": "Fixed the empty Sets tab in the Codex: all 16 pieces are listed by set with their bonuses, and set pieces can be collected."
+    },
+    {
+      "v": "0.17.1",
+      "zh": "修正 0.17.0 讀唔到部分舊存檔（換算後數值超出範圍少少就當壞檔）：而家會自動修正；如果之前嘅角色冇咗，去「角色」畫面撳「恢復」就可以救返。修正手機冇聲（而家點擊／放手都會開聲，鎖機或者轉 app 返嚟會自動恢復）。元素共鳴同融合而家按轉換之後嘅元素計。技能珠背包新增分類：近戰、遠程、法術、召喚、持續、位移、有用輔助。裝備等級要求降低（Z2 Lv8、Z3 Lv18、Z4 Lv30），等級低過區域建議等級時經驗最多 +150%。",
+      "en": "Fixed 0.17.0 rejecting some older saves (a converted value just past its range marked the file as broken): values are now repaired, and a character that went missing can be recovered with Restore on the Characters screen. Fixed missing sound on phones (audio now starts on tap release / click and resumes after locking or switching apps). Resonance and fusions now use the element after conversion supports. New orb bag filters: melee, ranged, spells, minions, persistent, movement, useful supports. Lower gear requirements (Z2 Lv8, Z3 Lv18, Z4 Lv30) and up to +150% XP while under a zone's recommended level."
+    },
+    {
+      "v": "0.17.0",
+      "zh": "裝備重新設計：物品等級真正影響數值（武器傷害、法杖法術傷害、基礎屬性同詞綴範圍都隨等級大幅提升，傳奇按品級加強），舊裝備按比例換算；裝備比較而家列出所有屬性同每招自動技能每下傷害。新增圖鑑（技能珠／傳奇／套裝），每款傳奇可以收藏最好嘅一件。倉庫加大到 1000 件裝備＋4000 粒技能珠，可以喺倉庫一鍵融合同自動融合。裝備外觀按物品等級有唔同材質（鐵、青銅、霜銀、虛空、遠古、太古），傳奇有光點。多招技能有新特效，每招技能有自己嘅音效。修正技能珠畫面欄位忽大忽細，更新咗過時嘅說明。Z2–Z4 敵人相應加強。",
+      "en": "Gear redesign: item level now really matters (weapon damage, wand/staff spell power, implicits and affix ranges grow strongly with item level; legendaries scale with their grade); old gear is converted proportionally. Item comparison now lists every stat and each auto skill's damage per hit. New Codex (orbs / legendaries / sets) with a collection slot for the best copy of each legendary. Stash raised to 1000 items + 4000 orbs, with one-tap and automatic fusion inside the stash. Gear looks change by item level (iron, bronze, frost-silver, void, ancient, primal) and legendaries sparkle. New effects for many skills and a sound of its own for every skill. Fixed the orb screen columns changing size; outdated help texts updated. Zones 2–4 are tougher to match."
+    },
+    {
+      "v": "0.16.1",
+      "zh": "手感更新：火焰衝刺、閃電傳送、冰霜閃現有移動動畫（火焰衝刺沿路燒地、閃電傳送化成閃電、冰霜閃現原地留低冰像），唔再一出即閃。融合奧義覺醒時有大橫額同畫面閃光，每次爆發前有 0.8 秒蓄力圈，傷害大約 ×2.3、冷卻 6 → 5 秒。技能進化有橫額提示，助攻都計進化值，門檻 30/90 → 20/60。元素共鳴加強（+15%／+30%），身邊有共鳴光點，HUD 顯示共鳴，並且每 4 秒向最近敵人發出共鳴脈衝（三相脈衝同時帶三種元素，方便觸發反應）。",
+      "en": "Feel update: Flame Dash, Lightning Warp and Frostblink now travel on screen (fire trail laid as you go, a lightning streak, an ice copy left behind) instead of popping. Fusions awaken with a big banner and a screen flash, show a 0.8 s charge ring before every burst, deal about 2.3× more and fire every 5 s (was 6). Evolution stages show a banner, assists count, thresholds 30/90 → 20/60. Elemental resonance is stronger (+15% / +30%), shows motes around you and a HUD chip, and fires a resonance pulse at the nearest enemy every 4 s (the Trinity pulse carries all three elements to set up reactions)."
+    },
+    {
+      "v": "0.16.0",
+      "zh": "技能大改：3 個自動技能槽（Lv1／6／14），每招各自有輔助珠；觸發連結可以揀由邊招自動技能觸發。新招牌系統「技能進化」：喺村莊為每招技能揀進化路線（2 階 × 2 揀 1），入場後技能靠自己嘅擊殺逐階進化；兩招都進化到 II 就融合成「融合奧義」（15 種，按元素決定），每 6 秒自動爆發，有融合圖鑑同成就。元素共鳴：同元素加傷害、3 種唔同元素反應 +40%。新技能：火焰衝刺、閃電傳送、冰霜閃現（法術位移）、雷霆打擊、瘟疫傳播、召喚毒蛛。修正：焦土對所有技能生效、無效輔助珠唔可以鑲（並標示 ✕）、自動鑲嵌唔會亂放、觸發次數重複計算。技能珠畫面顯示每招本局傷害同施放次數。全部技能重新平衡；Z2–Z4 敵人生命 +25–30%。排行榜改為每個角色各自保留最好紀錄。",
+      "en": "Skill rework: 3 auto skill slots (Lv1/6/14), each with its own supports; trigger links pick which auto skill feeds them. New signature system, Skill Evolution: pick each skill's evolution path in the village (2 stages × 2 choices); in a run a skill evolves through its own kills, and two skills at stage II fuse into a Fusion (15, decided by their elements) that bursts every 6 s, with a codex and achievements. Elemental resonance: same-element bonus, three different elements give +40% reactions. New skills: Flame Dash, Lightning Warp, Frostblink (spell movement), Lightning Strike, Contagion, Summon Spiders. Fixes: Scorched Earth works on every skill, useless supports can't be socketed (and are marked ✕), auto-socketing no longer misplaces orbs, trigger counts were doubled. The orb screen shows each skill's damage and casts this run. Every skill rebalanced; Z2–Z4 enemy life +25–30%. Leaderboards keep one best record per character."
+    },
+    {
+      "v": "0.15.2",
+      "zh": "倉庫 200 → 500 格，技能珠喺倉庫會疊埋（500 格）。倉庫新增一鍵賣：賣晒普通／魔法／稀有、賣重複傳奇（每款留最好一件）、賣出多餘技能珠，背包同倉庫一齊計，撳兩下確認；仲有「整理倉庫」同單件「賣」。裝備背包加「賣晒稀有」。自動賣出新增「普通＋魔法＋稀有（只留傳奇）」。手機倉庫畫面改為背包｜倉庫｜詳情並排，唔再遮住格仔。",
+      "en": "Stash 200 → 500 slots; orbs stack in the stash (500 cells). Stash bulk sell: commons / magic / rares, duplicate legendaries (keeps the best of each) and spare orbs, counting bag + stash, two taps to confirm; plus Sort stash and single-item Sell. Gear bag gets Sell rares. Auto-sell adds Common + Magic + Rare (keep legendaries). Phone stash screen now shows bag | stash | details side by side."
+    },
+    {
+      "v": "0.15.1",
+      "zh": "技能特效大翻新：新增粒子系統；每種投射物有自己嘅樣同拖尾（寒冰長矛、閃電箭、腐蝕箭、爆炸箭、龍捲射擊、致命狙擊曳光、回旋飛刃…）；近戰每招有自己嘅揮擊（旋風、雙重打擊突刺、毒刃爪痕、裂地斬地裂、爆焰擊火舌、重擊震波）；命中按元素有唔同爆點，暴擊有金星；持續技能各有身邊特效（護盾電弧、冰甲冰晶、外衣火舌、戰意層數…）。",
+      "en": "VFX overhaul: new particle system; every projectile has its own look and trail; each melee skill has its own swing (spin, thrusts, claws, ground cracks, flame tongues, shockwaves); element-specific hit bursts with crit stars; every persistent skill has its own visual around you."
+    },
+    {
+      "v": "0.15.0",
+      "zh": "技能系統重製：技能欄分做 ★主力（自動出招）、位移（手動）、持續 ×3（光環／先驅／護盾／灌注）。全部觸發連結都由主力觸發（受傷／閃避／格擋由你觸發，新「位移施放」由位移技能觸發），Lv3／10／20／35 解鎖 4 條。新增格擋同 9 個持續技能：雷霆護盾、冰霜護甲、荊棘、烈焰外衣、戰意、復仇、火／冰／電灌注；新輔助「反擊強化」「格擋強化」；新觸發「格擋施放」「位移施放」。舊存檔自動整理，多出嘅技能珠放返背包。",
+      "en": "Skill system rework: the bar is now ★Primary (auto-cast), Movement (manual) and 3 Persistent slots (auras, heralds, wards, infusions). Every trigger link is fed by the Primary (Damaged/Dodge/Block by you, new Cast on Landing by the movement skill); 4 links unlock at Lv3/10/20/35. New block mechanic and 9 persistent skills: Lightning Ward, Frost Armour, Thorns, Flame Cloak, Battle Rage, Vengeance, Fire/Cold/Lightning Infusion; new supports Retaliation and Bulwark; new triggers Cast on Block and Cast on Landing. Old saves are re-sorted automatically; extra orbs go back to the bag."
+    },
+    {
+      "v": "0.14.0",
+      "zh": "技能大改（參考 PoE）：主1 變★主力技能（傷害 ×1.3）；觸發連結固定由上面嗰招觸發；新增 10 個持續技能（憤怒、憎恨、雷霆之怒、鋼鐵意志、迅捷、精準、紀律、統御、冰霜先驅、雷霆先驅），放入主技能格長期強化角色；新輔助珠「光環強化」。修正：開機公告同主畫面公告一致；紅點分開技能珠／裝備。",
+      "en": "Skill rework (PoE-inspired): main 1 is now the ★Primary skill (×1.3 damage); trigger links are fed by the skill above them; 10 persistent skills (auras & heralds) that buff you from a main slot; new Aura Amplifier support. Fixes: startup news matches the title news; red dots now separate orbs and gear."
+    },
+    {
+      "v": "0.13.2",
+      "zh": "「尋寶」改為「掉寶率」：每 +1% = 裝備掉落機率 +1%，另加 +0.5% 稀有度（取代經驗／金幣加成）。",
+      "en": "\"Treasure find\" became \"drop rate\": every +1% = +1% item drop chance plus +0.5% rarity (replacing the XP / gold bonus)."
+    },
+    {
+      "v": "0.13.1",
+      "zh": "所有掉落（經驗、金幣、裝備、技能珠）都會自動飛去你身上（補血球只喺唔夠血時先飛）；打低 Boss 後地上剩低嘅嘢自動拾取，背包滿就入倉庫；「拾取範圍」改為「尋寶」：經驗同金幣各加一半。",
+      "en": "Every drop (XP, gold, items, orbs) now flies to you (heal orbs only when you're hurt); after a boss, anything left on the ground is collected automatically, overflow goes to the stash; \"pickup radius\" became \"treasure find\": half as XP and half as gold."
+    },
+    {
+      "v": "0.13.0",
+      "zh": "位移技能改為自己控制（E／右鍵／手機「位移」掣，向住移動方向）；光環唔再觸發「踏地施放」；同款技能珠疊埋一格（×N），背包上限計格數；裝備圖示每件傳奇唔同色、套裝綠色、遠古／太古有邊框同標記，倉庫可以先睇詳情先搬；新遊戲 icon。",
+      "en": "Movement skills are now player-controlled (E / right-click / touch Move button, toward your movement); auras no longer fire Cast on Zone Enter; identical orbs stack in one cell (×N) and the bag counts cells; every legendary has its own icon colour, sets are green, ancient / primal get frames and badges, the stash shows details before moving; new game icon."
+    },
+    {
+      "v": "0.12.1",
+      "zh": "躍擊同疾風突擊唔再瞬移：跳躍有弧線、衝刺會滑過去，到達先出傷害；敵人已經喺身邊就原地攻擊，唔會再閃嚟閃去。",
+      "en": "Leap Slam and Dash Strike no longer teleport: the leap arcs and the dash slides, damage lands on arrival; if the enemy is already next to you they hit in place instead of flickering around."
+    },
+    {
+      "v": "0.12.0",
+      "zh": "終局更新（三）：全新音效系統——立體聲、迴響、42 種音效（暴擊、元素反應、精英、傳奇／套裝／遠古掉落、哥布林、神壇、Boss 預警、低血心跳…），每個區域、Boss、裂隙階級同 Boss 連戰都有自己嘅節奏音樂。",
+      "en": "Endgame update (3): new sound engine — stereo, echo, 42 sounds (crits, reactions, elites, legendary / set / ancient drops, goblin, shrines, boss warnings, low-life heartbeat…) and beat-driven music for every zone, bosses, rift tiers and boss rush."
+    },
+    {
+      "v": "0.11.0",
+      "zh": "終局更新（二）：地形柱同區域地面（熔岩／冰面／虛空）、隨機事件（寶藏哥布林、詛咒神壇、精英群、力量神壇）、每局兩次強化卡、Boss 連戰模式＋排行榜。",
+      "en": "Endgame update (2): pillars and zone floors (lava / ice / void), random events (treasure goblin, cursed shrine, elite pack, power shrine), two boon picks per run, Boss Rush mode + leaderboard."
+    },
+    {
+      "v": "0.10.0",
+      "zh": "終局更新（一）：裂隙階級（打爆機後無限挑戰＋排行榜）、遠古／太古裝備、4 套套裝（Boss 指定掉落）。",
+      "en": "Endgame update (1): Rift Tiers (endless post-game ladder + leaderboard), ancient / primal gear, 4 item sets (targeted boss drops)."
+    },
+    {
+      "v": "0.9.8",
+      "zh": "更新內容會自動跟網上更新。",
+      "en": "Patch notes now update online automatically."
+    },
+    {
+      "v": "0.9.7",
+      "zh": "修正重新載入會跳去 itch.io 嘅問題；itch 頁面改為「開始玩」掣。",
+      "en": "Fixed reloading jumping to itch.io; the itch page is now a Play button."
+    },
+    {
+      "v": "0.9.6",
+      "zh": "手機鏡頭拉近（設定可揀 1×／1.5×／2×）；能力值說明收入「？說明」。",
+      "en": "Closer camera on phones (1× / 1.5× / 2× in Options); attribute details moved behind \"? Help\"."
+    },
+    {
+      "v": "0.9.5",
+      "zh": "有新版本時自動重新載入。",
+      "en": "Reloads automatically when a new version is out."
+    },
+    {
+      "v": "0.9.4",
+      "zh": "大螢幕介面放大；裝備背包精簡。",
+      "en": "Menus scale up on large monitors; tidier equipment bag."
+    },
+    {
+      "v": "0.9.3",
+      "zh": "技能珠同裝備分開兩個畫面，技能珠畫面重新設計；雲端存檔自動同步；修正手機撳唔到「繼續」。",
+      "en": "Orbs and equipment are separate screens, redesigned orb screen; cloud saves auto-sync; fixed Continue not responding to taps on phones."
+    },
+    {
+      "v": "0.9.2",
+      "zh": "村莊三個入口（主線傳送門、挑戰祭壇、榮譽石碑）；全螢幕同加入主畫面。",
+      "en": "Three village entrances (Zone Portal, Challenge Altar, Hall of Fame); fullscreen and Add to Home Screen."
+    },
+    {
+      "v": "0.9.1",
+      "zh": "Google／Discord 登入同雲端存檔。",
+      "en": "Google / Discord sign-in and cloud saves."
+    },
+    {
+      "v": "0.9.0",
+      "zh": "每日／每週裂隙排行榜。",
+      "en": "Daily / weekly rift leaderboards."
+    },
+    {
+      "v": "0.8.9",
+      "zh": "每日／每週裂隙、連續每日獎勵、活動同公告系統。",
+      "en": "Daily / weekly rifts, daily streak rewards, events and news."
+    },
+    {
+      "v": "0.8.8",
+      "zh": "20 個成就，解鎖送金幣。",
+      "en": "20 achievements with gold rewards."
+    },
+    {
+      "v": "0.8.7",
+      "zh": "裂隙詞綴：出發前揀風險，換經驗、金幣同稀有度。",
+      "en": "Rift modifiers: pick risks for more XP, gold and rarity."
+    }
+  ]
 }

@@ -17,7 +17,7 @@ try:
         pg.on('console', lambda m: errs.append(m.text) if (m.type == 'error' and 'Failed to load' not in m.text) or 'validation' in m.text else None)
         pg.route('**/version.json*', lambda r: r.fulfill(status=404))
         pg.goto('http://localhost:%d/index.html' % port); pg.wait_for_timeout(1000)
-        check('version 0.17.x', '0.17.' in pg.title(), pg.title())
+        check('version 0.17+', any(v in pg.title() for v in ('0.17.', '0.18.')), pg.title())
         pg.evaluate("() => window.__evolve.startNewCharacter()")
         R = pg.evaluate("""() => { const E = window.__evolve, C = E.core, D = C.DATA, g = E.game, R = {};
           const mk = (base, ilvl, rar) => { const it = C.rollItem(g, rar || 'common', D.BASES[base].type, { ilvl }); it.base = base; it.affixes = []; it.special = null; it.unique = null; it.name = C.itemName(it); return it; };
