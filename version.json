@@ -1,6 +1,11 @@
 {
-  "version": "0.18.0",
+  "version": "0.18.1",
   "notes": [
+    {
+      "v": "0.18.1",
+      "zh": "拎走 0.18 嘅光暈同暗角；地震、震地、跳躍重擊、重擊會裂開真實地裂（有闊度、裂邊、翻起嘅地磚、坑），仲有飛石同塵土；隕石有熔岩裂縫；旋風／旋風斬／龍捲射擊變成真正嘅龍捲風；冰霜新星會爆出冰晶；火、冰、毒會留低燒焦、結霜、毒液痕跡。套裝件而家有 3 條隨機屬性、其他傳奇有 2 條，舊裝備讀檔時自動補返。",
+      "en": "Removed the 0.18 glow and vignette; Earthquake, Ground Slam, Leap Slam and Heavy Strike now split the ground (real fissures with width, lit edges, lifted slabs and craters) with flying rocks and dust; Meteor leaves lava cracks; Cyclone / Whirl Cleave / Tornado Shot are actual whirlwinds; Frost Nova erupts ice crystals; fire, cold and poison leave scorch, frost and acid marks. Set pieces now roll 3 random affixes and other legendaries 2; existing items are topped up on load."
+    },
     {
       "v": "0.18.0",
       "zh": "難度等級（普通／困難／地獄，越難掉寶越好）＋整體加難；角色資料：全伺服器唯一角色名、角色 ID、改名、加好友同在線狀態；觸發連鎖（連結可以由另一條連結施放嘅技能觸發）；技能特效加光暈、衝擊波、刀光同地面痕跡；裝備比較改為顯示秒傷。",

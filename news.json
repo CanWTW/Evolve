@@ -2,6 +2,14 @@
   "_doc": "News shown in game (newest first). id changes trigger the popup once.",
   "news": [
     {
+      "id": "v0181",
+      "date": "2026-11-01",
+      "title": "v0.18.1 實在嘅技能特效、套裝加強",
+      "titleEn": "v0.18.1 Physical skill effects, stronger sets",
+      "body": "【特效】0.18 嘅光暈同四邊暗角已經拎走。地震系技能而家會真係爆開地面：有闊度嘅黑色地裂、受光嘅裂邊、翻起嘅地磚同撞擊坑，石仔會彈起有影，塵土會散開；地震餘震前地面會慢慢裂開。隕石留低熔岩裂縫同燒焦地面。旋風會變成圍住你嘅龍捲風（層層風帶、地面揚塵、捲起嘅沙石），旋風斬係一下旋風，龍捲射擊係會行嘅小龍捲風。冰霜新星爆出一圈冰晶，之後慢慢溶。火／冰／毒範圍技能會留低燒焦、結霜、毒液。設定「減少特效」可以關。\n【套裝】套裝件除咗固定屬性同套裝效果，而家仲有 3 條隨機屬性（之前得 1 條）；其他傳奇有 2 條。舊存檔入面嘅套裝同傳奇讀檔時會自動補返（中上數值）。",
+      "bodyEn": "Effects: the 0.18 glow and edge vignette are gone. Earthquake-type skills now break the ground: wide dark fissures with lit edges, lifted floor slabs and impact craters, rocks that bounce with shadows, and dust; the ground slowly splits before an aftershock. Meteor leaves lava cracks and scorched ground. Cyclone becomes a whirlwind around you (layered wind bands, dust skirt, grit pulled up), Whirl Cleave is one gust, and Tornado Shot is a travelling twister. Frost Nova erupts a ring of ice crystals that melt away. Fire, cold and poison areas leave scorch, frost and acid. Reduce effects turns this off.\nSets: set pieces now have 3 random affixes besides their fixed lines and set bonus (was 1); other legendaries have 2. Sets and legendaries in existing saves are topped up when you load (mid-high rolls)."
+    },
+    {
       "id": "v0180",
       "date": "2026-11-01",
       "title": "v0.18.0 難度、好友、連鎖觸發",

@@ -85,7 +85,7 @@ try:
             pg.route('**/version.json*', lambda r: r.fulfill(status=404)); pg.route('https://edustzcgqvupqjvneniw.supabase.co/**', handler)
             pg.goto('http://localhost:%d/index.html' % port); pg.wait_for_timeout(900); return ctx, pg, errs
         ctx, pg, errs = page()
-        check('version 0.18.0', '0.18.0' in pg.title(), pg.title())
+        check('version 0.18.x', '0.18.' in pg.title(), pg.title())
         # ---- difficulty ----
         pg.evaluate("() => window.__evolve.startNewCharacter()")
         D = pg.evaluate("""() => { const E = window.__evolve, C = E.core; const out = {};
@@ -130,7 +130,7 @@ try:
           for (let i = 0; i < 10; i++) { const e = C.spawnEnemy(g, 'enemy.chaser', g.player.x + 30 + i * 9, g.player.y + (i % 3) * 14 - 14, { force: true }); e.hp = e.maxHp = 1e7; e.speed = 0; }
           for (let i = 0; i < 150; i++) C.step(g, {}, 1 / 60); E.setFrozen && E.setFrozen(true); return 1; }""")
         pg.wait_for_timeout(400)
-        dec = pg.evaluate("() => (window.__evolve.decals || []).length + ' ' + (window.__evolve.game.fx || []).length")
+        dec = pg.evaluate("() => { const E = window.__evolve; const n = E.gfx ? E.gfx.scars.length + E.gfx.dust.length : (E.decals || []).length; return n + ' ' + (E.game.fx || []).length; }")
         pg.screenshot(path=shots + '/v18_vfx.png')
         check('VFX: decals exist after novas / heavy hits', int(dec.split()[0]) > 0, dec)
         real = [e for e in errs if 'supabase' not in e.lower()]
